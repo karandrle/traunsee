@@ -1,0 +1,310 @@
+{
+  "schema_version": 1,
+  "timezone": "Europe/Vienna",
+  "updated_at": "2026-10-16T12:21:49.156Z",
+  "stations": [
+    {
+      "id": "gm",
+      "name": "Gmunden Rathausplatz",
+      "aliases": [
+        "rathaus",
+        "gmunden"
+      ],
+      "map": "https://maps.app.goo.gl/iJQzckwHZJNXeYci6",
+      "slug": "gmunden-rathauspl"
+    },
+    {
+      "id": "gh",
+      "name": "Gasthof Hoisn",
+      "aliases": [
+        "hois",
+        "gasthof"
+      ],
+      "map": "https://maps.app.goo.gl/cHGY4GH2iKFH3Hyz9",
+      "slug": "gasthof-hoisn"
+    },
+    {
+      "id": "trk",
+      "name": "Traunkirchen",
+      "aliases": [
+        "traunkir"
+      ],
+      "map": "https://maps.app.goo.gl/sQeY3YCNRdRccYqt9",
+      "slug": "traunkirchen"
+    },
+    {
+      "id": "ebe",
+      "name": "Ebensee",
+      "aliases": [
+        "ebensee"
+      ],
+      "map": "https://maps.app.goo.gl/87hpr455eHcGk9ax9",
+      "slug": "ebensee"
+    },
+    {
+      "id": "alt",
+      "name": "Altmünster",
+      "aliases": [
+        "altmun",
+        "altmuen"
+      ],
+      "map": "https://maps.app.goo.gl/8JkhsZ4GwwgETfKv9",
+      "slug": "altmünster"
+    },
+    {
+      "id": "gr",
+      "name": "Grünbergseilbahn",
+      "aliases": [
+        "grunberg",
+        "gruenberg",
+        "seilbahn"
+      ],
+      "map": "https://maps.app.goo.gl/FGDmPTfYwJJ1N8GL6",
+      "slug": "grünbergseilbahn"
+    }
+  ],
+  "plans": {
+    "2026-10-16": {
+      "trips": [
+        {
+          "id": "2026-10-16-1",
+          "kind": "castle",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "13:00"
+            },
+            {
+              "station": "gh",
+              "time": "13:25"
+            },
+            {
+              "station": "gm",
+              "time": "14:00",
+              "approximate": true
+            }
+          ]
+        },
+        {
+          "id": "2026-10-16-2",
+          "kind": "castle",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "14:45"
+            },
+            {
+              "station": "gh",
+              "time": "15:05"
+            },
+            {
+              "station": "gm",
+              "time": "15:45",
+              "approximate": true
+            }
+          ]
+        },
+        {
+          "id": "2026-10-16-3",
+          "kind": "panorama",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "15:45"
+            },
+            {
+              "station": "trk",
+              "time": "16:30"
+            },
+            {
+              "station": "gh",
+              "time": "16:45"
+            },
+            {
+              "station": "gm",
+              "time": "17:15",
+              "approximate": true
+            }
+          ]
+        }
+      ],
+      "rounds": {
+        "gh": [
+          {
+            "departure": "13:25",
+            "arrival": "15:05",
+            "via": [
+              "Gmunden"
+            ],
+            "pauseMinutes": 45,
+            "approximatePause": true
+          },
+          {
+            "departure": "15:05",
+            "arrival": "16:45",
+            "via": [
+              "Gmunden",
+              "Traunkirchen"
+            ],
+            "pauseMinutes": 0,
+            "approximatePause": false
+          }
+        ],
+        "gm": [
+          {
+            "departure": "13:00",
+            "arrival": "14:00",
+            "via": [
+              "Gasthof Hoisn"
+            ],
+            "approximateArrival": true,
+            "pauseMinutes": 0,
+            "kind": "castle"
+          },
+          {
+            "departure": "14:45",
+            "arrival": "15:45",
+            "via": [
+              "Gasthof Hoisn"
+            ],
+            "approximateArrival": true,
+            "pauseMinutes": 0,
+            "kind": "castle"
+          },
+          {
+            "departure": "15:45",
+            "arrival": "17:15",
+            "via": [
+              "Traunkirchen",
+              "Gasthof Hoisn"
+            ],
+            "approximateArrival": true,
+            "pauseMinutes": 0,
+            "kind": "panorama"
+          }
+        ]
+      }
+    },
+    "2026-10-17": {
+      "trips": [
+        {
+          "id": "2026-10-17-1",
+          "kind": "castle",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "12:00"
+            },
+            {
+              "station": "gh",
+              "time": "12:40"
+            },
+            {
+              "station": "gm",
+              "time": "13:00",
+              "approximate": true
+            }
+          ]
+        },
+        {
+          "id": "2026-10-17-2",
+          "kind": "castle",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "14:00"
+            },
+            {
+              "station": "gh",
+              "time": "14:40"
+            },
+            {
+              "station": "gm",
+              "time": "15:00",
+              "approximate": true
+            }
+          ]
+        },
+        {
+          "id": "2026-10-17-3",
+          "kind": "panorama",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "15:15"
+            },
+            {
+              "station": "trk",
+              "time": "16:00"
+            },
+            {
+              "station": "gh",
+              "time": "16:20"
+            },
+            {
+              "station": "gm",
+              "time": "16:45",
+              "approximate": true
+            }
+          ]
+        }
+      ],
+      "rounds": {
+        "gh": [
+          {
+            "departure": "12:40",
+            "arrival": "14:40",
+            "via": [
+              "Gmunden"
+            ],
+            "pauseMinutes": 60,
+            "approximatePause": true
+          },
+          {
+            "departure": "14:40",
+            "arrival": "16:20",
+            "via": [
+              "Gmunden",
+              "Traunkirchen"
+            ],
+            "pauseMinutes": 15,
+            "approximatePause": true
+          }
+        ],
+        "gm": [
+          {
+            "departure": "12:00",
+            "arrival": "13:00",
+            "via": [
+              "Gasthof Hoisn"
+            ],
+            "approximateArrival": true,
+            "pauseMinutes": 0,
+            "kind": "castle"
+          },
+          {
+            "departure": "14:00",
+            "arrival": "15:00",
+            "via": [
+              "Gasthof Hoisn"
+            ],
+            "approximateArrival": true,
+            "pauseMinutes": 0,
+            "kind": "castle"
+          },
+          {
+            "departure": "15:15",
+            "arrival": "16:45",
+            "via": [
+              "Traunkirchen",
+              "Gasthof Hoisn"
+            ],
+            "approximateArrival": true,
+            "pauseMinutes": 0,
+            "kind": "panorama"
+          }
+        ]
+      }
+    }
+  }
+}
