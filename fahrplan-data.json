@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "timezone": "Europe/Vienna",
-  "updated_at": "2026-10-16T12:21:49.156Z",
+  "updated_at": "2026-10-17T13:41:51.606Z",
   "stations": [
     {
       "id": "gm",
@@ -64,127 +64,6 @@
     }
   ],
   "plans": {
-    "2026-10-16": {
-      "trips": [
-        {
-          "id": "2026-10-16-1",
-          "kind": "castle",
-          "stops": [
-            {
-              "station": "gm",
-              "time": "13:00"
-            },
-            {
-              "station": "gh",
-              "time": "13:25"
-            },
-            {
-              "station": "gm",
-              "time": "14:00",
-              "approximate": true
-            }
-          ]
-        },
-        {
-          "id": "2026-10-16-2",
-          "kind": "castle",
-          "stops": [
-            {
-              "station": "gm",
-              "time": "14:45"
-            },
-            {
-              "station": "gh",
-              "time": "15:05"
-            },
-            {
-              "station": "gm",
-              "time": "15:45",
-              "approximate": true
-            }
-          ]
-        },
-        {
-          "id": "2026-10-16-3",
-          "kind": "panorama",
-          "stops": [
-            {
-              "station": "gm",
-              "time": "15:45"
-            },
-            {
-              "station": "trk",
-              "time": "16:30"
-            },
-            {
-              "station": "gh",
-              "time": "16:45"
-            },
-            {
-              "station": "gm",
-              "time": "17:15",
-              "approximate": true
-            }
-          ]
-        }
-      ],
-      "rounds": {
-        "gh": [
-          {
-            "departure": "13:25",
-            "arrival": "15:05",
-            "via": [
-              "Gmunden"
-            ],
-            "pauseMinutes": 45,
-            "approximatePause": true
-          },
-          {
-            "departure": "15:05",
-            "arrival": "16:45",
-            "via": [
-              "Gmunden",
-              "Traunkirchen"
-            ],
-            "pauseMinutes": 0,
-            "approximatePause": false
-          }
-        ],
-        "gm": [
-          {
-            "departure": "13:00",
-            "arrival": "14:00",
-            "via": [
-              "Gasthof Hoisn"
-            ],
-            "approximateArrival": true,
-            "pauseMinutes": 0,
-            "kind": "castle"
-          },
-          {
-            "departure": "14:45",
-            "arrival": "15:45",
-            "via": [
-              "Gasthof Hoisn"
-            ],
-            "approximateArrival": true,
-            "pauseMinutes": 0,
-            "kind": "castle"
-          },
-          {
-            "departure": "15:45",
-            "arrival": "17:15",
-            "via": [
-              "Traunkirchen",
-              "Gasthof Hoisn"
-            ],
-            "approximateArrival": true,
-            "pauseMinutes": 0,
-            "kind": "panorama"
-          }
-        ]
-      }
-    },
     "2026-10-17": {
       "trips": [
         {
@@ -302,6 +181,169 @@
             "approximateArrival": true,
             "pauseMinutes": 0,
             "kind": "panorama"
+          }
+        ]
+      }
+    },
+    "2026-10-18": {
+      "trips": [
+        {
+          "id": "2026-10-18-1",
+          "kind": "seerundfahrt",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "11:30"
+            },
+            {
+              "station": "ebe",
+              "time": "12:30"
+            },
+            {
+              "station": "trk",
+              "time": "12:50"
+            },
+            {
+              "station": "gh",
+              "time": "13:10"
+            },
+            {
+              "station": "gm",
+              "time": "13:30",
+              "approximate": true
+            }
+          ]
+        },
+        {
+          "id": "2026-10-18-2",
+          "kind": "castle",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "14:00"
+            },
+            {
+              "station": "gh",
+              "time": "14:40"
+            },
+            {
+              "station": "gm",
+              "time": "15:00",
+              "approximate": true
+            }
+          ]
+        },
+        {
+          "id": "2026-10-18-3",
+          "kind": "seerundfahrt",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "15:15"
+            },
+            {
+              "station": "ebe",
+              "time": "16:15"
+            },
+            {
+              "station": "trk",
+              "time": "16:35"
+            },
+            {
+              "station": "gh",
+              "time": "16:55"
+            },
+            {
+              "station": "gm",
+              "time": "17:15",
+              "approximate": true
+            }
+          ]
+        }
+      ],
+      "rounds": {
+        "gm": [
+          {
+            "departure": "11:30",
+            "arrival": "13:30",
+            "via": [
+              "Ebensee",
+              "Traunkirchen",
+              "Gasthof Hoisn"
+            ],
+            "pauseMinutes": 0,
+            "kind": "seerundfahrt",
+            "approximateArrival": true
+          },
+          {
+            "departure": "14:00",
+            "arrival": "15:00",
+            "via": [
+              "Gasthof Hoisn"
+            ],
+            "pauseMinutes": 0,
+            "kind": "castle",
+            "approximateArrival": true
+          },
+          {
+            "departure": "15:15",
+            "arrival": "17:15",
+            "via": [
+              "Ebensee",
+              "Traunkirchen",
+              "Gasthof Hoisn"
+            ],
+            "pauseMinutes": 0,
+            "kind": "seerundfahrt",
+            "approximateArrival": true
+          }
+        ],
+        "gh": [
+          {
+            "departure": "13:10",
+            "arrival": "14:40",
+            "via": [
+              "Gmunden"
+            ],
+            "pauseMinutes": 30,
+            "approximatePause": true
+          },
+          {
+            "departure": "14:40",
+            "arrival": "16:55",
+            "via": [
+              "Gmunden",
+              "Ebensee",
+              "Traunkirchen"
+            ],
+            "pauseMinutes": 15,
+            "approximatePause": true
+          }
+        ],
+        "trk": [
+          {
+            "departure": "12:50",
+            "arrival": "16:35",
+            "via": [
+              "Gasthof Hoisn",
+              "Gmunden",
+              "Ebensee"
+            ],
+            "pauseMinutes": 105,
+            "approximatePause": true
+          }
+        ],
+        "ebe": [
+          {
+            "departure": "12:30",
+            "arrival": "16:15",
+            "via": [
+              "Traunkirchen",
+              "Gasthof Hoisn",
+              "Gmunden"
+            ],
+            "pauseMinutes": 105,
+            "approximatePause": true
           }
         ]
       }
