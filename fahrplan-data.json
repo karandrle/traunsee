@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "timezone": "Europe/Vienna",
-  "updated_at": "2026-10-17T13:41:51.606Z",
+  "updated_at": "2026-10-18T13:43:09.217Z",
   "stations": [
     {
       "id": "gm",
@@ -64,127 +64,6 @@
     }
   ],
   "plans": {
-    "2026-10-17": {
-      "trips": [
-        {
-          "id": "2026-10-17-1",
-          "kind": "castle",
-          "stops": [
-            {
-              "station": "gm",
-              "time": "12:00"
-            },
-            {
-              "station": "gh",
-              "time": "12:40"
-            },
-            {
-              "station": "gm",
-              "time": "13:00",
-              "approximate": true
-            }
-          ]
-        },
-        {
-          "id": "2026-10-17-2",
-          "kind": "castle",
-          "stops": [
-            {
-              "station": "gm",
-              "time": "14:00"
-            },
-            {
-              "station": "gh",
-              "time": "14:40"
-            },
-            {
-              "station": "gm",
-              "time": "15:00",
-              "approximate": true
-            }
-          ]
-        },
-        {
-          "id": "2026-10-17-3",
-          "kind": "panorama",
-          "stops": [
-            {
-              "station": "gm",
-              "time": "15:15"
-            },
-            {
-              "station": "trk",
-              "time": "16:00"
-            },
-            {
-              "station": "gh",
-              "time": "16:20"
-            },
-            {
-              "station": "gm",
-              "time": "16:45",
-              "approximate": true
-            }
-          ]
-        }
-      ],
-      "rounds": {
-        "gh": [
-          {
-            "departure": "12:40",
-            "arrival": "14:40",
-            "via": [
-              "Gmunden"
-            ],
-            "pauseMinutes": 60,
-            "approximatePause": true
-          },
-          {
-            "departure": "14:40",
-            "arrival": "16:20",
-            "via": [
-              "Gmunden",
-              "Traunkirchen"
-            ],
-            "pauseMinutes": 15,
-            "approximatePause": true
-          }
-        ],
-        "gm": [
-          {
-            "departure": "12:00",
-            "arrival": "13:00",
-            "via": [
-              "Gasthof Hoisn"
-            ],
-            "approximateArrival": true,
-            "pauseMinutes": 0,
-            "kind": "castle"
-          },
-          {
-            "departure": "14:00",
-            "arrival": "15:00",
-            "via": [
-              "Gasthof Hoisn"
-            ],
-            "approximateArrival": true,
-            "pauseMinutes": 0,
-            "kind": "castle"
-          },
-          {
-            "departure": "15:15",
-            "arrival": "16:45",
-            "via": [
-              "Traunkirchen",
-              "Gasthof Hoisn"
-            ],
-            "approximateArrival": true,
-            "pauseMinutes": 0,
-            "kind": "panorama"
-          }
-        ]
-      }
-    },
     "2026-10-18": {
       "trips": [
         {
@@ -344,6 +223,126 @@
             ],
             "pauseMinutes": 105,
             "approximatePause": true
+          }
+        ]
+      }
+    },
+    "2026-10-19": {
+      "trips": [
+        {
+          "id": "2026-10-19-1",
+          "kind": "castle",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "12:00"
+            },
+            {
+              "station": "gh",
+              "time": "12:30"
+            },
+            {
+              "station": "gm",
+              "time": "13:00",
+              "approximate": true
+            }
+          ]
+        },
+        {
+          "id": "2026-10-19-2",
+          "kind": "castle",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "14:45"
+            },
+            {
+              "station": "gh",
+              "time": "15:15"
+            },
+            {
+              "station": "gm",
+              "time": "15:45",
+              "approximate": true
+            }
+          ]
+        },
+        {
+          "id": "2026-10-19-3",
+          "kind": "panorama",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "15:45"
+            },
+            {
+              "station": "trk",
+              "time": "16:30"
+            },
+            {
+              "station": "gh",
+              "time": "16:45"
+            },
+            {
+              "station": "gm",
+              "time": "17:15",
+              "approximate": true
+            }
+          ]
+        }
+      ],
+      "rounds": {
+        "gm": [
+          {
+            "departure": "12:00",
+            "arrival": "13:00",
+            "kind": "castle",
+            "via": [
+              "Gasthof Hoisn"
+            ],
+            "pauseMinutes": 0,
+            "approximateArrival": true
+          },
+          {
+            "departure": "14:45",
+            "arrival": "15:45",
+            "kind": "castle",
+            "via": [
+              "Gasthof Hoisn"
+            ],
+            "pauseMinutes": 0,
+            "approximateArrival": true
+          },
+          {
+            "departure": "15:45",
+            "arrival": "17:15",
+            "kind": "panorama",
+            "via": [
+              "Traunkirchen",
+              "Gasthof Hoisn"
+            ],
+            "pauseMinutes": 0,
+            "approximateArrival": true
+          }
+        ],
+        "gh": [
+          {
+            "departure": "12:30",
+            "arrival": "15:15",
+            "via": [
+              "Gmunden"
+            ],
+            "pauseMinutes": 105,
+            "approximatePause": true
+          },
+          {
+            "departure": "15:15",
+            "arrival": "16:45",
+            "via": [
+              "Gmunden",
+              "Traunkirchen"
+            ],
+            "pauseMinutes": 0
           }
         ]
       }
