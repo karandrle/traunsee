@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "eveningHour": 17,
+  "overrides": {
+    "2026-11-07": {
+      "trips": [],
+      "notice": "Nächste Fahrt am Montag, 9. November 2026. Uhrzeit folgt."
+    },
+    "2026-11-08": {
+      "trips": [],
+      "notice": "Nächste Fahrt am Montag, 9. November 2026. Uhrzeit folgt."
+    }
+  },
+  "advent": {
+    "start": "2026-11-20",
+    "end": "2026-12-20",
+    "holidays": [
+      "2026-12-08"
+    ],
+    "weekend": [
+      {
+        "departure": "11:00",
+        "arrival": "12:30",
+        "title": "PANORAMAFAHRT",
+        "via": [
+          "Toscana-Park",
+          "Traunkirchen",
+          "Grünbergseilbahn"
+        ]
+      },
+      {
+        "departure": "13:00",
+        "arrival": "13:50",
+        "title": "SCHLÖSSERFAHRT",
+        "via": [
+          "Toscana-Park",
+          "Grünbergseilbahn"
+        ]
+      },
+      {
+        "departure": "14:00",
+        "arrival": "14:50",
+        "title": "SCHLÖSSERFAHRT",
+        "via": [
+          "Toscana-Park",
+          "Grünbergseilbahn"
+        ]
+      },
+      {
+        "departure": "15:00",
+        "arrival": "15:50",
+        "title": "SCHLÖSSERFAHRT",
+        "via": [
+          "Toscana-Park",
+          "Grünbergseilbahn"
+        ]
+      },
+      {
+        "departure": "16:00",
+        "arrival": "17:30",
+        "title": "PANORAMAFAHRT",
+        "via": [
+          "Toscana-Park",
+          "Traunkirchen",
+          "Grünbergseilbahn"
+        ]
+      }
+    ],
+    "weekday": [
+      {
+        "departure": "14:45",
+        "arrival": "16:15",
+        "title": "PANORAMAFAHRT",
+        "via": [
+          "Toscana-Park",
+          "Traunkirchen",
+          "Grünbergseilbahn"
+        ]
+      }
+    ]
+  }
+}
