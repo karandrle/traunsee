@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "timezone": "Europe/Vienna",
-  "updated_at": "2026-11-06T20:08:44.195Z",
+  "updated_at": "2026-11-12T12:11:09.933Z",
   "stations": [
     {
       "id": "gm",
@@ -398,6 +398,53 @@
       "trips": [
         {
           "id": "2026-11-09-panorama-1445",
+          "kind": "panorama",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "14:45"
+            },
+            {
+              "station": "trk",
+              "time": "15:30"
+            },
+            {
+              "station": "gh",
+              "time": "15:50"
+            },
+            {
+              "station": "gm",
+              "time": "16:15",
+              "approximate": true
+            }
+          ]
+        }
+      ],
+      "rounds": {
+        "gm": [
+          {
+            "departure": "14:45",
+            "arrival": "16:15",
+            "kind": "panorama",
+            "via": [
+              "Traunkirchen",
+              "Gasthof Hoisn"
+            ],
+            "pauseMinutes": 0,
+            "approximateArrival": true
+          }
+        ],
+        "gh": [],
+        "trk": [],
+        "ebe": [],
+        "alt": [],
+        "gr": []
+      }
+    },
+    "2026-11-13": {
+      "trips": [
+        {
+          "id": "2026-11-13-panorama-1445",
           "kind": "panorama",
           "stops": [
             {
