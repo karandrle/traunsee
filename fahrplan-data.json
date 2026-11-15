@@ -575,6 +575,11 @@
     "via": [
       "gr",
       "toscana-park"
-    ]
+    ],
+    "approximate_stop_offsets_minutes": {
+      "gr": 5,
+      "toscana-park": 30
+    },
+    "destination_after_toscana": "gm"
   }
 }
