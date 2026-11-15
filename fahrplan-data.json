@@ -578,7 +578,8 @@
     ],
     "approximate_stop_offsets_minutes": {
       "gr": 5,
-      "toscana-park": 30
+      "toscana-park": 30,
+      "gm": 50
     },
     "destination_after_toscana": "gm"
   }
