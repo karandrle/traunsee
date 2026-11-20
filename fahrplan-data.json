@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "timezone": "Europe/Vienna",
-  "updated_at": "2026-11-20T07:52:11.923Z",
+  "updated_at": "2026-11-20T12:08:19.115Z",
   "stations": [
     {
       "id": "gm",
@@ -63,7 +63,7 @@
       "slug": "grünbergseilbahn"
     },
     {
-      "id": "toscana-park",
+      "id": "tos",
       "name": "Toscana-Park",
       "aliases": [
         "toscana"
@@ -577,7 +577,7 @@
               "time": "14:45"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "14:55"
             },
             {
@@ -614,7 +614,7 @@
         "ebe": [],
         "alt": [],
         "gr": [],
-        "toscana-park": []
+        "tos": []
       }
     },
     "2026-11-21": {
@@ -628,7 +628,7 @@
               "time": "11:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "11:10"
             },
             {
@@ -656,18 +656,15 @@
             },
             {
               "station": "gr",
-              "time": "11:35",
-              "approximate": true
+              "time": "11:40"
             },
             {
-              "station": "toscana-park",
-              "time": "12:00",
-              "approximate": true
+              "station": "tos",
+              "time": "11:50"
             },
             {
               "station": "gm",
-              "time": "12:20",
-              "approximate": true
+              "time": "12:00"
             }
           ]
         },
@@ -682,18 +679,15 @@
             },
             {
               "station": "gr",
-              "time": "12:35",
-              "approximate": true
+              "time": "12:40"
             },
             {
-              "station": "toscana-park",
-              "time": "13:00",
-              "approximate": true
+              "station": "tos",
+              "time": "12:50"
             },
             {
               "station": "gm",
-              "time": "13:20",
-              "approximate": true
+              "time": "13:00"
             }
           ]
         },
@@ -706,7 +700,7 @@
               "time": "13:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "13:10"
             },
             {
@@ -730,18 +724,15 @@
             },
             {
               "station": "gr",
-              "time": "13:35",
-              "approximate": true
+              "time": "13:40"
             },
             {
-              "station": "toscana-park",
-              "time": "14:00",
-              "approximate": true
+              "station": "tos",
+              "time": "13:50"
             },
             {
               "station": "gm",
-              "time": "14:20",
-              "approximate": true
+              "time": "14:00"
             }
           ]
         },
@@ -754,7 +745,7 @@
               "time": "14:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "14:10"
             },
             {
@@ -776,7 +767,7 @@
               "time": "15:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "15:10"
             },
             {
@@ -798,7 +789,7 @@
               "time": "16:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "16:10"
             },
             {
@@ -831,25 +822,25 @@
           },
           {
             "departure": "11:30",
-            "arrival": "12:20",
+            "arrival": "12:00",
             "kind": "shuttle",
+            "name": "Shuttle-Schiff",
             "via": [
               "Grünbergseilbahn",
               "Toscana-Park"
             ],
-            "pauseMinutes": 0,
-            "approximateArrival": true
+            "pauseMinutes": 0
           },
           {
             "departure": "12:30",
-            "arrival": "13:20",
+            "arrival": "13:00",
             "kind": "shuttle",
+            "name": "Shuttle-Schiff",
             "via": [
               "Grünbergseilbahn",
               "Toscana-Park"
             ],
-            "pauseMinutes": 0,
-            "approximateArrival": true
+            "pauseMinutes": 0
           },
           {
             "departure": "13:00",
@@ -863,14 +854,14 @@
           },
           {
             "departure": "13:30",
-            "arrival": "14:20",
+            "arrival": "14:00",
             "kind": "shuttle",
+            "name": "Shuttle-Schiff",
             "via": [
               "Grünbergseilbahn",
               "Toscana-Park"
             ],
-            "pauseMinutes": 0,
-            "approximateArrival": true
+            "pauseMinutes": 0
           },
           {
             "departure": "14:00",
@@ -910,11 +901,11 @@
             "departure": "11:45",
             "arrival": "16:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Grünbergseilbahn",
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 210,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 210
           }
         ],
         "ebe": [],
@@ -922,145 +913,132 @@
         "gr": [
           {
             "departure": "12:25",
-            "arrival": "12:35",
+            "arrival": "12:40",
             "via": [
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 0,
-            "approximateArrival": true,
-            "approximatePause": false
+            "pauseMinutes": 0
           },
           {
-            "departure": "11:35",
-            "arrival": "12:35",
+            "departure": "11:40",
+            "arrival": "12:40",
             "via": [
+              "Toscana-Park",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": true,
-            "approximatePause": true
+            "pauseMinutes": 30
           },
           {
-            "departure": "12:35",
-            "arrival": "13:35",
+            "departure": "12:40",
+            "arrival": "13:40",
             "via": [
+              "Toscana-Park",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": true,
-            "approximatePause": true
+            "pauseMinutes": 30
           },
           {
             "departure": "13:45",
             "arrival": "14:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
-            "departure": "13:35",
-            "arrival": "15:45",
+            "departure": "13:40",
+            "arrival": "14:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Toscana-Park",
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 40,
-            "approximateArrival": false,
-            "approximatePause": true
+            "pauseMinutes": 0
           },
           {
             "departure": "14:45",
             "arrival": "15:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
             "departure": "15:45",
             "arrival": "17:25",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Toscana-Park",
+              "Traunkirchen"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           }
         ],
-        "toscana-park": [
+        "tos": [
           {
             "departure": "11:10",
-            "arrival": "13:00",
+            "arrival": "12:50",
             "via": [
-              "Gmunden Rathausplatz"
+              "Traunkirchen",
+              "Grünbergseilbahn",
+              "Gmunden Rathausplatz",
+              "Grünbergseilbahn"
             ],
-            "pauseMinutes": 0,
-            "approximateArrival": true,
-            "approximatePause": false
+            "pauseMinutes": 0
           },
           {
-            "departure": "12:00",
-            "arrival": "13:00",
+            "departure": "11:50",
+            "arrival": "12:50",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Grünbergseilbahn"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": true,
-            "approximatePause": true
+            "pauseMinutes": 30
           },
           {
-            "departure": "13:00",
-            "arrival": "14:00",
+            "departure": "12:50",
+            "arrival": "13:10",
             "via": [
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": true,
-            "approximatePause": true
+            "pauseMinutes": 0
           },
           {
             "departure": "13:10",
             "arrival": "14:10",
             "via": [
+              "Grünbergseilbahn",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
-            "departure": "14:00",
-            "arrival": "15:10",
+            "departure": "13:50",
+            "arrival": "14:10",
             "via": [
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 40,
-            "approximateArrival": false,
-            "approximatePause": true
+            "pauseMinutes": 0
           },
           {
             "departure": "14:10",
             "arrival": "15:10",
             "via": [
+              "Grünbergseilbahn",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
             "departure": "15:10",
             "arrival": "16:10",
             "via": [
+              "Grünbergseilbahn",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           }
         ]
       }
@@ -1076,7 +1054,7 @@
               "time": "11:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "11:10"
             },
             {
@@ -1102,7 +1080,7 @@
               "time": "13:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "13:10"
             },
             {
@@ -1124,7 +1102,7 @@
               "time": "14:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "14:10"
             },
             {
@@ -1146,7 +1124,7 @@
               "time": "15:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "15:10"
             },
             {
@@ -1168,7 +1146,7 @@
               "time": "16:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "16:10"
             },
             {
@@ -1247,11 +1225,11 @@
             "departure": "11:45",
             "arrival": "16:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Grünbergseilbahn",
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 210,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 210
           }
         ],
         "ebe": [],
@@ -1261,83 +1239,77 @@
             "departure": "12:25",
             "arrival": "13:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 30,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 30
           },
           {
             "departure": "13:45",
             "arrival": "14:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
             "departure": "14:45",
             "arrival": "15:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
             "departure": "15:45",
             "arrival": "17:25",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Toscana-Park",
+              "Traunkirchen"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           }
         ],
-        "toscana-park": [
+        "tos": [
           {
             "departure": "11:10",
             "arrival": "13:10",
             "via": [
+              "Traunkirchen",
+              "Grünbergseilbahn",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 30,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 30
           },
           {
             "departure": "13:10",
             "arrival": "14:10",
             "via": [
+              "Grünbergseilbahn",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
             "departure": "14:10",
             "arrival": "15:10",
             "via": [
+              "Grünbergseilbahn",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
             "departure": "15:10",
             "arrival": "16:10",
             "via": [
+              "Grünbergseilbahn",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           }
         ]
       }
@@ -1353,7 +1325,7 @@
               "time": "14:45"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "14:55"
             },
             {
@@ -1390,7 +1362,7 @@
         "ebe": [],
         "alt": [],
         "gr": [],
-        "toscana-park": []
+        "tos": []
       }
     },
     "2026-11-24": {
@@ -1402,7 +1374,7 @@
         "ebe": [],
         "alt": [],
         "gr": [],
-        "toscana-park": []
+        "tos": []
       }
     },
     "2026-11-25": {
@@ -1414,7 +1386,7 @@
         "ebe": [],
         "alt": [],
         "gr": [],
-        "toscana-park": []
+        "tos": []
       }
     },
     "2026-11-26": {
@@ -1426,7 +1398,7 @@
         "ebe": [],
         "alt": [],
         "gr": [],
-        "toscana-park": []
+        "tos": []
       }
     },
     "2026-11-27": {
@@ -1440,7 +1412,7 @@
               "time": "14:45"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "14:55"
             },
             {
@@ -1477,7 +1449,7 @@
         "ebe": [],
         "alt": [],
         "gr": [],
-        "toscana-park": []
+        "tos": []
       }
     },
     "2026-11-28": {
@@ -1491,7 +1463,7 @@
               "time": "11:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "11:10"
             },
             {
@@ -1519,18 +1491,15 @@
             },
             {
               "station": "gr",
-              "time": "11:35",
-              "approximate": true
+              "time": "11:40"
             },
             {
-              "station": "toscana-park",
-              "time": "12:00",
-              "approximate": true
+              "station": "tos",
+              "time": "11:50"
             },
             {
               "station": "gm",
-              "time": "12:20",
-              "approximate": true
+              "time": "12:00"
             }
           ]
         },
@@ -1545,18 +1514,15 @@
             },
             {
               "station": "gr",
-              "time": "12:35",
-              "approximate": true
+              "time": "12:40"
             },
             {
-              "station": "toscana-park",
-              "time": "13:00",
-              "approximate": true
+              "station": "tos",
+              "time": "12:50"
             },
             {
               "station": "gm",
-              "time": "13:20",
-              "approximate": true
+              "time": "13:00"
             }
           ]
         },
@@ -1569,7 +1535,7 @@
               "time": "13:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "13:10"
             },
             {
@@ -1593,18 +1559,15 @@
             },
             {
               "station": "gr",
-              "time": "13:35",
-              "approximate": true
+              "time": "13:40"
             },
             {
-              "station": "toscana-park",
-              "time": "14:00",
-              "approximate": true
+              "station": "tos",
+              "time": "13:50"
             },
             {
               "station": "gm",
-              "time": "14:20",
-              "approximate": true
+              "time": "14:00"
             }
           ]
         },
@@ -1617,7 +1580,7 @@
               "time": "14:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "14:10"
             },
             {
@@ -1639,7 +1602,7 @@
               "time": "15:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "15:10"
             },
             {
@@ -1661,7 +1624,7 @@
               "time": "16:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "16:10"
             },
             {
@@ -1694,25 +1657,25 @@
           },
           {
             "departure": "11:30",
-            "arrival": "12:20",
+            "arrival": "12:00",
             "kind": "shuttle",
+            "name": "Shuttle-Schiff",
             "via": [
               "Grünbergseilbahn",
               "Toscana-Park"
             ],
-            "pauseMinutes": 0,
-            "approximateArrival": true
+            "pauseMinutes": 0
           },
           {
             "departure": "12:30",
-            "arrival": "13:20",
+            "arrival": "13:00",
             "kind": "shuttle",
+            "name": "Shuttle-Schiff",
             "via": [
               "Grünbergseilbahn",
               "Toscana-Park"
             ],
-            "pauseMinutes": 0,
-            "approximateArrival": true
+            "pauseMinutes": 0
           },
           {
             "departure": "13:00",
@@ -1726,14 +1689,14 @@
           },
           {
             "departure": "13:30",
-            "arrival": "14:20",
+            "arrival": "14:00",
             "kind": "shuttle",
+            "name": "Shuttle-Schiff",
             "via": [
               "Grünbergseilbahn",
               "Toscana-Park"
             ],
-            "pauseMinutes": 0,
-            "approximateArrival": true
+            "pauseMinutes": 0
           },
           {
             "departure": "14:00",
@@ -1773,11 +1736,11 @@
             "departure": "11:45",
             "arrival": "16:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Grünbergseilbahn",
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 210,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 210
           }
         ],
         "ebe": [],
@@ -1785,145 +1748,132 @@
         "gr": [
           {
             "departure": "12:25",
-            "arrival": "12:35",
+            "arrival": "12:40",
             "via": [
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 0,
-            "approximateArrival": true,
-            "approximatePause": false
+            "pauseMinutes": 0
           },
           {
-            "departure": "11:35",
-            "arrival": "12:35",
+            "departure": "11:40",
+            "arrival": "12:40",
             "via": [
+              "Toscana-Park",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": true,
-            "approximatePause": true
+            "pauseMinutes": 30
           },
           {
-            "departure": "12:35",
-            "arrival": "13:35",
+            "departure": "12:40",
+            "arrival": "13:40",
             "via": [
+              "Toscana-Park",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": true,
-            "approximatePause": true
+            "pauseMinutes": 30
           },
           {
             "departure": "13:45",
             "arrival": "14:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
-            "departure": "13:35",
-            "arrival": "15:45",
+            "departure": "13:40",
+            "arrival": "14:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Toscana-Park",
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 40,
-            "approximateArrival": false,
-            "approximatePause": true
+            "pauseMinutes": 0
           },
           {
             "departure": "14:45",
             "arrival": "15:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
             "departure": "15:45",
             "arrival": "17:25",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Toscana-Park",
+              "Traunkirchen"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           }
         ],
-        "toscana-park": [
+        "tos": [
           {
             "departure": "11:10",
-            "arrival": "13:00",
+            "arrival": "12:50",
             "via": [
-              "Gmunden Rathausplatz"
+              "Traunkirchen",
+              "Grünbergseilbahn",
+              "Gmunden Rathausplatz",
+              "Grünbergseilbahn"
             ],
-            "pauseMinutes": 0,
-            "approximateArrival": true,
-            "approximatePause": false
+            "pauseMinutes": 0
           },
           {
-            "departure": "12:00",
-            "arrival": "13:00",
+            "departure": "11:50",
+            "arrival": "12:50",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Grünbergseilbahn"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": true,
-            "approximatePause": true
+            "pauseMinutes": 30
           },
           {
-            "departure": "13:00",
-            "arrival": "14:00",
+            "departure": "12:50",
+            "arrival": "13:10",
             "via": [
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": true,
-            "approximatePause": true
+            "pauseMinutes": 0
           },
           {
             "departure": "13:10",
             "arrival": "14:10",
             "via": [
+              "Grünbergseilbahn",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
-            "departure": "14:00",
-            "arrival": "15:10",
+            "departure": "13:50",
+            "arrival": "14:10",
             "via": [
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 40,
-            "approximateArrival": false,
-            "approximatePause": true
+            "pauseMinutes": 0
           },
           {
             "departure": "14:10",
             "arrival": "15:10",
             "via": [
+              "Grünbergseilbahn",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
             "departure": "15:10",
             "arrival": "16:10",
             "via": [
+              "Grünbergseilbahn",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           }
         ]
       }
@@ -1939,7 +1889,7 @@
               "time": "11:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "11:10"
             },
             {
@@ -1965,7 +1915,7 @@
               "time": "13:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "13:10"
             },
             {
@@ -1987,7 +1937,7 @@
               "time": "14:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "14:10"
             },
             {
@@ -2009,7 +1959,7 @@
               "time": "15:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "15:10"
             },
             {
@@ -2031,7 +1981,7 @@
               "time": "16:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "16:10"
             },
             {
@@ -2110,11 +2060,11 @@
             "departure": "11:45",
             "arrival": "16:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Grünbergseilbahn",
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 210,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 210
           }
         ],
         "ebe": [],
@@ -2124,83 +2074,77 @@
             "departure": "12:25",
             "arrival": "13:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 30,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 30
           },
           {
             "departure": "13:45",
             "arrival": "14:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
             "departure": "14:45",
             "arrival": "15:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
             "departure": "15:45",
             "arrival": "17:25",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Toscana-Park",
+              "Traunkirchen"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           }
         ],
-        "toscana-park": [
+        "tos": [
           {
             "departure": "11:10",
             "arrival": "13:10",
             "via": [
+              "Traunkirchen",
+              "Grünbergseilbahn",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 30,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 30
           },
           {
             "departure": "13:10",
             "arrival": "14:10",
             "via": [
+              "Grünbergseilbahn",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
             "departure": "14:10",
             "arrival": "15:10",
             "via": [
+              "Grünbergseilbahn",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
             "departure": "15:10",
             "arrival": "16:10",
             "via": [
+              "Grünbergseilbahn",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           }
         ]
       }
@@ -2216,7 +2160,7 @@
               "time": "14:45"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "14:55"
             },
             {
@@ -2253,7 +2197,7 @@
         "ebe": [],
         "alt": [],
         "gr": [],
-        "toscana-park": []
+        "tos": []
       }
     },
     "2026-12-01": {
@@ -2265,7 +2209,7 @@
         "ebe": [],
         "alt": [],
         "gr": [],
-        "toscana-park": []
+        "tos": []
       }
     },
     "2026-12-02": {
@@ -2277,7 +2221,7 @@
         "ebe": [],
         "alt": [],
         "gr": [],
-        "toscana-park": []
+        "tos": []
       }
     },
     "2026-12-03": {
@@ -2289,7 +2233,7 @@
         "ebe": [],
         "alt": [],
         "gr": [],
-        "toscana-park": []
+        "tos": []
       }
     },
     "2026-12-04": {
@@ -2303,7 +2247,7 @@
               "time": "14:45"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "14:55"
             },
             {
@@ -2340,7 +2284,7 @@
         "ebe": [],
         "alt": [],
         "gr": [],
-        "toscana-park": []
+        "tos": []
       }
     },
     "2026-12-05": {
@@ -2354,7 +2298,7 @@
               "time": "11:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "11:10"
             },
             {
@@ -2382,18 +2326,15 @@
             },
             {
               "station": "gr",
-              "time": "11:35",
-              "approximate": true
+              "time": "11:40"
             },
             {
-              "station": "toscana-park",
-              "time": "12:00",
-              "approximate": true
+              "station": "tos",
+              "time": "11:50"
             },
             {
               "station": "gm",
-              "time": "12:20",
-              "approximate": true
+              "time": "12:00"
             }
           ]
         },
@@ -2408,18 +2349,15 @@
             },
             {
               "station": "gr",
-              "time": "12:35",
-              "approximate": true
+              "time": "12:40"
             },
             {
-              "station": "toscana-park",
-              "time": "13:00",
-              "approximate": true
+              "station": "tos",
+              "time": "12:50"
             },
             {
               "station": "gm",
-              "time": "13:20",
-              "approximate": true
+              "time": "13:00"
             }
           ]
         },
@@ -2432,7 +2370,7 @@
               "time": "13:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "13:10"
             },
             {
@@ -2456,18 +2394,15 @@
             },
             {
               "station": "gr",
-              "time": "13:35",
-              "approximate": true
+              "time": "13:40"
             },
             {
-              "station": "toscana-park",
-              "time": "14:00",
-              "approximate": true
+              "station": "tos",
+              "time": "13:50"
             },
             {
               "station": "gm",
-              "time": "14:20",
-              "approximate": true
+              "time": "14:00"
             }
           ]
         },
@@ -2480,7 +2415,7 @@
               "time": "14:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "14:10"
             },
             {
@@ -2502,7 +2437,7 @@
               "time": "15:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "15:10"
             },
             {
@@ -2524,7 +2459,7 @@
               "time": "16:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "16:10"
             },
             {
@@ -2557,25 +2492,25 @@
           },
           {
             "departure": "11:30",
-            "arrival": "12:20",
+            "arrival": "12:00",
             "kind": "shuttle",
+            "name": "Shuttle-Schiff",
             "via": [
               "Grünbergseilbahn",
               "Toscana-Park"
             ],
-            "pauseMinutes": 0,
-            "approximateArrival": true
+            "pauseMinutes": 0
           },
           {
             "departure": "12:30",
-            "arrival": "13:20",
+            "arrival": "13:00",
             "kind": "shuttle",
+            "name": "Shuttle-Schiff",
             "via": [
               "Grünbergseilbahn",
               "Toscana-Park"
             ],
-            "pauseMinutes": 0,
-            "approximateArrival": true
+            "pauseMinutes": 0
           },
           {
             "departure": "13:00",
@@ -2589,14 +2524,14 @@
           },
           {
             "departure": "13:30",
-            "arrival": "14:20",
+            "arrival": "14:00",
             "kind": "shuttle",
+            "name": "Shuttle-Schiff",
             "via": [
               "Grünbergseilbahn",
               "Toscana-Park"
             ],
-            "pauseMinutes": 0,
-            "approximateArrival": true
+            "pauseMinutes": 0
           },
           {
             "departure": "14:00",
@@ -2636,11 +2571,11 @@
             "departure": "11:45",
             "arrival": "16:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Grünbergseilbahn",
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 210,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 210
           }
         ],
         "ebe": [],
@@ -2648,145 +2583,132 @@
         "gr": [
           {
             "departure": "12:25",
-            "arrival": "12:35",
+            "arrival": "12:40",
             "via": [
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 0,
-            "approximateArrival": true,
-            "approximatePause": false
+            "pauseMinutes": 0
           },
           {
-            "departure": "11:35",
-            "arrival": "12:35",
+            "departure": "11:40",
+            "arrival": "12:40",
             "via": [
+              "Toscana-Park",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": true,
-            "approximatePause": true
+            "pauseMinutes": 30
           },
           {
-            "departure": "12:35",
-            "arrival": "13:35",
+            "departure": "12:40",
+            "arrival": "13:40",
             "via": [
+              "Toscana-Park",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": true,
-            "approximatePause": true
+            "pauseMinutes": 30
           },
           {
             "departure": "13:45",
             "arrival": "14:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
-            "departure": "13:35",
-            "arrival": "15:45",
+            "departure": "13:40",
+            "arrival": "14:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Toscana-Park",
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 40,
-            "approximateArrival": false,
-            "approximatePause": true
+            "pauseMinutes": 0
           },
           {
             "departure": "14:45",
             "arrival": "15:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
             "departure": "15:45",
             "arrival": "17:25",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Toscana-Park",
+              "Traunkirchen"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           }
         ],
-        "toscana-park": [
+        "tos": [
           {
             "departure": "11:10",
-            "arrival": "13:00",
+            "arrival": "12:50",
             "via": [
-              "Gmunden Rathausplatz"
+              "Traunkirchen",
+              "Grünbergseilbahn",
+              "Gmunden Rathausplatz",
+              "Grünbergseilbahn"
             ],
-            "pauseMinutes": 0,
-            "approximateArrival": true,
-            "approximatePause": false
+            "pauseMinutes": 0
           },
           {
-            "departure": "12:00",
-            "arrival": "13:00",
+            "departure": "11:50",
+            "arrival": "12:50",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Grünbergseilbahn"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": true,
-            "approximatePause": true
+            "pauseMinutes": 30
           },
           {
-            "departure": "13:00",
-            "arrival": "14:00",
+            "departure": "12:50",
+            "arrival": "13:10",
             "via": [
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": true,
-            "approximatePause": true
+            "pauseMinutes": 0
           },
           {
             "departure": "13:10",
             "arrival": "14:10",
             "via": [
+              "Grünbergseilbahn",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
-            "departure": "14:00",
-            "arrival": "15:10",
+            "departure": "13:50",
+            "arrival": "14:10",
             "via": [
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 40,
-            "approximateArrival": false,
-            "approximatePause": true
+            "pauseMinutes": 0
           },
           {
             "departure": "14:10",
             "arrival": "15:10",
             "via": [
+              "Grünbergseilbahn",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
             "departure": "15:10",
             "arrival": "16:10",
             "via": [
+              "Grünbergseilbahn",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           }
         ]
       }
@@ -2802,7 +2724,7 @@
               "time": "11:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "11:10"
             },
             {
@@ -2828,7 +2750,7 @@
               "time": "13:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "13:10"
             },
             {
@@ -2850,7 +2772,7 @@
               "time": "14:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "14:10"
             },
             {
@@ -2872,7 +2794,7 @@
               "time": "15:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "15:10"
             },
             {
@@ -2894,7 +2816,7 @@
               "time": "16:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "16:10"
             },
             {
@@ -2973,11 +2895,11 @@
             "departure": "11:45",
             "arrival": "16:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Grünbergseilbahn",
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 210,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 210
           }
         ],
         "ebe": [],
@@ -2987,83 +2909,77 @@
             "departure": "12:25",
             "arrival": "13:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 30,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 30
           },
           {
             "departure": "13:45",
             "arrival": "14:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
             "departure": "14:45",
             "arrival": "15:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
             "departure": "15:45",
             "arrival": "17:25",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Toscana-Park",
+              "Traunkirchen"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           }
         ],
-        "toscana-park": [
+        "tos": [
           {
             "departure": "11:10",
             "arrival": "13:10",
             "via": [
+              "Traunkirchen",
+              "Grünbergseilbahn",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 30,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 30
           },
           {
             "departure": "13:10",
             "arrival": "14:10",
             "via": [
+              "Grünbergseilbahn",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
             "departure": "14:10",
             "arrival": "15:10",
             "via": [
+              "Grünbergseilbahn",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
             "departure": "15:10",
             "arrival": "16:10",
             "via": [
+              "Grünbergseilbahn",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           }
         ]
       }
@@ -3079,7 +2995,7 @@
               "time": "14:45"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "14:55"
             },
             {
@@ -3116,7 +3032,7 @@
         "ebe": [],
         "alt": [],
         "gr": [],
-        "toscana-park": []
+        "tos": []
       }
     },
     "2026-12-08": {
@@ -3130,7 +3046,7 @@
               "time": "11:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "11:10"
             },
             {
@@ -3158,18 +3074,15 @@
             },
             {
               "station": "gr",
-              "time": "11:35",
-              "approximate": true
+              "time": "11:40"
             },
             {
-              "station": "toscana-park",
-              "time": "12:00",
-              "approximate": true
+              "station": "tos",
+              "time": "11:50"
             },
             {
               "station": "gm",
-              "time": "12:20",
-              "approximate": true
+              "time": "12:00"
             }
           ]
         },
@@ -3184,18 +3097,15 @@
             },
             {
               "station": "gr",
-              "time": "12:35",
-              "approximate": true
+              "time": "12:40"
             },
             {
-              "station": "toscana-park",
-              "time": "13:00",
-              "approximate": true
+              "station": "tos",
+              "time": "12:50"
             },
             {
               "station": "gm",
-              "time": "13:20",
-              "approximate": true
+              "time": "13:00"
             }
           ]
         },
@@ -3208,7 +3118,7 @@
               "time": "13:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "13:10"
             },
             {
@@ -3232,18 +3142,15 @@
             },
             {
               "station": "gr",
-              "time": "13:35",
-              "approximate": true
+              "time": "13:40"
             },
             {
-              "station": "toscana-park",
-              "time": "14:00",
-              "approximate": true
+              "station": "tos",
+              "time": "13:50"
             },
             {
               "station": "gm",
-              "time": "14:20",
-              "approximate": true
+              "time": "14:00"
             }
           ]
         },
@@ -3256,7 +3163,7 @@
               "time": "14:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "14:10"
             },
             {
@@ -3278,7 +3185,7 @@
               "time": "15:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "15:10"
             },
             {
@@ -3300,7 +3207,7 @@
               "time": "16:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "16:10"
             },
             {
@@ -3333,25 +3240,25 @@
           },
           {
             "departure": "11:30",
-            "arrival": "12:20",
+            "arrival": "12:00",
             "kind": "shuttle",
+            "name": "Shuttle-Schiff",
             "via": [
               "Grünbergseilbahn",
               "Toscana-Park"
             ],
-            "pauseMinutes": 0,
-            "approximateArrival": true
+            "pauseMinutes": 0
           },
           {
             "departure": "12:30",
-            "arrival": "13:20",
+            "arrival": "13:00",
             "kind": "shuttle",
+            "name": "Shuttle-Schiff",
             "via": [
               "Grünbergseilbahn",
               "Toscana-Park"
             ],
-            "pauseMinutes": 0,
-            "approximateArrival": true
+            "pauseMinutes": 0
           },
           {
             "departure": "13:00",
@@ -3365,14 +3272,14 @@
           },
           {
             "departure": "13:30",
-            "arrival": "14:20",
+            "arrival": "14:00",
             "kind": "shuttle",
+            "name": "Shuttle-Schiff",
             "via": [
               "Grünbergseilbahn",
               "Toscana-Park"
             ],
-            "pauseMinutes": 0,
-            "approximateArrival": true
+            "pauseMinutes": 0
           },
           {
             "departure": "14:00",
@@ -3412,11 +3319,11 @@
             "departure": "11:45",
             "arrival": "16:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Grünbergseilbahn",
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 210,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 210
           }
         ],
         "ebe": [],
@@ -3424,145 +3331,132 @@
         "gr": [
           {
             "departure": "12:25",
-            "arrival": "12:35",
+            "arrival": "12:40",
             "via": [
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 0,
-            "approximateArrival": true,
-            "approximatePause": false
+            "pauseMinutes": 0
           },
           {
-            "departure": "11:35",
-            "arrival": "12:35",
+            "departure": "11:40",
+            "arrival": "12:40",
             "via": [
+              "Toscana-Park",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": true,
-            "approximatePause": true
+            "pauseMinutes": 30
           },
           {
-            "departure": "12:35",
-            "arrival": "13:35",
+            "departure": "12:40",
+            "arrival": "13:40",
             "via": [
+              "Toscana-Park",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": true,
-            "approximatePause": true
+            "pauseMinutes": 30
           },
           {
             "departure": "13:45",
             "arrival": "14:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
-            "departure": "13:35",
-            "arrival": "15:45",
+            "departure": "13:40",
+            "arrival": "14:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Toscana-Park",
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 40,
-            "approximateArrival": false,
-            "approximatePause": true
+            "pauseMinutes": 0
           },
           {
             "departure": "14:45",
             "arrival": "15:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
             "departure": "15:45",
             "arrival": "17:25",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Toscana-Park",
+              "Traunkirchen"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           }
         ],
-        "toscana-park": [
+        "tos": [
           {
             "departure": "11:10",
-            "arrival": "13:00",
+            "arrival": "12:50",
             "via": [
-              "Gmunden Rathausplatz"
+              "Traunkirchen",
+              "Grünbergseilbahn",
+              "Gmunden Rathausplatz",
+              "Grünbergseilbahn"
             ],
-            "pauseMinutes": 0,
-            "approximateArrival": true,
-            "approximatePause": false
+            "pauseMinutes": 0
           },
           {
-            "departure": "12:00",
-            "arrival": "13:00",
+            "departure": "11:50",
+            "arrival": "12:50",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Grünbergseilbahn"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": true,
-            "approximatePause": true
+            "pauseMinutes": 30
           },
           {
-            "departure": "13:00",
-            "arrival": "14:00",
+            "departure": "12:50",
+            "arrival": "13:10",
             "via": [
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": true,
-            "approximatePause": true
+            "pauseMinutes": 0
           },
           {
             "departure": "13:10",
             "arrival": "14:10",
             "via": [
+              "Grünbergseilbahn",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
-            "departure": "14:00",
-            "arrival": "15:10",
+            "departure": "13:50",
+            "arrival": "14:10",
             "via": [
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 40,
-            "approximateArrival": false,
-            "approximatePause": true
+            "pauseMinutes": 0
           },
           {
             "departure": "14:10",
             "arrival": "15:10",
             "via": [
+              "Grünbergseilbahn",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
             "departure": "15:10",
             "arrival": "16:10",
             "via": [
+              "Grünbergseilbahn",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           }
         ]
       }
@@ -3576,7 +3470,7 @@
         "ebe": [],
         "alt": [],
         "gr": [],
-        "toscana-park": []
+        "tos": []
       }
     },
     "2026-12-10": {
@@ -3588,7 +3482,7 @@
         "ebe": [],
         "alt": [],
         "gr": [],
-        "toscana-park": []
+        "tos": []
       }
     },
     "2026-12-11": {
@@ -3602,7 +3496,7 @@
               "time": "14:45"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "14:55"
             },
             {
@@ -3639,7 +3533,7 @@
         "ebe": [],
         "alt": [],
         "gr": [],
-        "toscana-park": []
+        "tos": []
       }
     },
     "2026-12-12": {
@@ -3653,7 +3547,7 @@
               "time": "11:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "11:10"
             },
             {
@@ -3681,18 +3575,15 @@
             },
             {
               "station": "gr",
-              "time": "11:35",
-              "approximate": true
+              "time": "11:40"
             },
             {
-              "station": "toscana-park",
-              "time": "12:00",
-              "approximate": true
+              "station": "tos",
+              "time": "11:50"
             },
             {
               "station": "gm",
-              "time": "12:20",
-              "approximate": true
+              "time": "12:00"
             }
           ]
         },
@@ -3707,18 +3598,15 @@
             },
             {
               "station": "gr",
-              "time": "12:35",
-              "approximate": true
+              "time": "12:40"
             },
             {
-              "station": "toscana-park",
-              "time": "13:00",
-              "approximate": true
+              "station": "tos",
+              "time": "12:50"
             },
             {
               "station": "gm",
-              "time": "13:20",
-              "approximate": true
+              "time": "13:00"
             }
           ]
         },
@@ -3731,7 +3619,7 @@
               "time": "13:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "13:10"
             },
             {
@@ -3755,18 +3643,15 @@
             },
             {
               "station": "gr",
-              "time": "13:35",
-              "approximate": true
+              "time": "13:40"
             },
             {
-              "station": "toscana-park",
-              "time": "14:00",
-              "approximate": true
+              "station": "tos",
+              "time": "13:50"
             },
             {
               "station": "gm",
-              "time": "14:20",
-              "approximate": true
+              "time": "14:00"
             }
           ]
         },
@@ -3779,7 +3664,7 @@
               "time": "14:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "14:10"
             },
             {
@@ -3801,7 +3686,7 @@
               "time": "15:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "15:10"
             },
             {
@@ -3823,7 +3708,7 @@
               "time": "16:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "16:10"
             },
             {
@@ -3856,25 +3741,25 @@
           },
           {
             "departure": "11:30",
-            "arrival": "12:20",
+            "arrival": "12:00",
             "kind": "shuttle",
+            "name": "Shuttle-Schiff",
             "via": [
               "Grünbergseilbahn",
               "Toscana-Park"
             ],
-            "pauseMinutes": 0,
-            "approximateArrival": true
+            "pauseMinutes": 0
           },
           {
             "departure": "12:30",
-            "arrival": "13:20",
+            "arrival": "13:00",
             "kind": "shuttle",
+            "name": "Shuttle-Schiff",
             "via": [
               "Grünbergseilbahn",
               "Toscana-Park"
             ],
-            "pauseMinutes": 0,
-            "approximateArrival": true
+            "pauseMinutes": 0
           },
           {
             "departure": "13:00",
@@ -3888,14 +3773,14 @@
           },
           {
             "departure": "13:30",
-            "arrival": "14:20",
+            "arrival": "14:00",
             "kind": "shuttle",
+            "name": "Shuttle-Schiff",
             "via": [
               "Grünbergseilbahn",
               "Toscana-Park"
             ],
-            "pauseMinutes": 0,
-            "approximateArrival": true
+            "pauseMinutes": 0
           },
           {
             "departure": "14:00",
@@ -3935,11 +3820,11 @@
             "departure": "11:45",
             "arrival": "16:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Grünbergseilbahn",
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 210,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 210
           }
         ],
         "ebe": [],
@@ -3947,145 +3832,132 @@
         "gr": [
           {
             "departure": "12:25",
-            "arrival": "12:35",
+            "arrival": "12:40",
             "via": [
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 0,
-            "approximateArrival": true,
-            "approximatePause": false
+            "pauseMinutes": 0
           },
           {
-            "departure": "11:35",
-            "arrival": "12:35",
+            "departure": "11:40",
+            "arrival": "12:40",
             "via": [
+              "Toscana-Park",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": true,
-            "approximatePause": true
+            "pauseMinutes": 30
           },
           {
-            "departure": "12:35",
-            "arrival": "13:35",
+            "departure": "12:40",
+            "arrival": "13:40",
             "via": [
+              "Toscana-Park",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": true,
-            "approximatePause": true
+            "pauseMinutes": 30
           },
           {
             "departure": "13:45",
             "arrival": "14:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
-            "departure": "13:35",
-            "arrival": "15:45",
+            "departure": "13:40",
+            "arrival": "14:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Toscana-Park",
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 40,
-            "approximateArrival": false,
-            "approximatePause": true
+            "pauseMinutes": 0
           },
           {
             "departure": "14:45",
             "arrival": "15:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
             "departure": "15:45",
             "arrival": "17:25",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Toscana-Park",
+              "Traunkirchen"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           }
         ],
-        "toscana-park": [
+        "tos": [
           {
             "departure": "11:10",
-            "arrival": "13:00",
+            "arrival": "12:50",
             "via": [
-              "Gmunden Rathausplatz"
+              "Traunkirchen",
+              "Grünbergseilbahn",
+              "Gmunden Rathausplatz",
+              "Grünbergseilbahn"
             ],
-            "pauseMinutes": 0,
-            "approximateArrival": true,
-            "approximatePause": false
+            "pauseMinutes": 0
           },
           {
-            "departure": "12:00",
-            "arrival": "13:00",
+            "departure": "11:50",
+            "arrival": "12:50",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Grünbergseilbahn"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": true,
-            "approximatePause": true
+            "pauseMinutes": 30
           },
           {
-            "departure": "13:00",
-            "arrival": "14:00",
+            "departure": "12:50",
+            "arrival": "13:10",
             "via": [
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": true,
-            "approximatePause": true
+            "pauseMinutes": 0
           },
           {
             "departure": "13:10",
             "arrival": "14:10",
             "via": [
+              "Grünbergseilbahn",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
-            "departure": "14:00",
-            "arrival": "15:10",
+            "departure": "13:50",
+            "arrival": "14:10",
             "via": [
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 40,
-            "approximateArrival": false,
-            "approximatePause": true
+            "pauseMinutes": 0
           },
           {
             "departure": "14:10",
             "arrival": "15:10",
             "via": [
+              "Grünbergseilbahn",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
             "departure": "15:10",
             "arrival": "16:10",
             "via": [
+              "Grünbergseilbahn",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           }
         ]
       }
@@ -4101,7 +3973,7 @@
               "time": "11:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "11:10"
             },
             {
@@ -4127,7 +3999,7 @@
               "time": "13:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "13:10"
             },
             {
@@ -4149,7 +4021,7 @@
               "time": "14:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "14:10"
             },
             {
@@ -4171,7 +4043,7 @@
               "time": "15:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "15:10"
             },
             {
@@ -4193,7 +4065,7 @@
               "time": "16:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "16:10"
             },
             {
@@ -4272,11 +4144,11 @@
             "departure": "11:45",
             "arrival": "16:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Grünbergseilbahn",
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 210,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 210
           }
         ],
         "ebe": [],
@@ -4286,83 +4158,77 @@
             "departure": "12:25",
             "arrival": "13:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 30,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 30
           },
           {
             "departure": "13:45",
             "arrival": "14:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
             "departure": "14:45",
             "arrival": "15:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
             "departure": "15:45",
             "arrival": "17:25",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Toscana-Park",
+              "Traunkirchen"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           }
         ],
-        "toscana-park": [
+        "tos": [
           {
             "departure": "11:10",
             "arrival": "13:10",
             "via": [
+              "Traunkirchen",
+              "Grünbergseilbahn",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 30,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 30
           },
           {
             "departure": "13:10",
             "arrival": "14:10",
             "via": [
+              "Grünbergseilbahn",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
             "departure": "14:10",
             "arrival": "15:10",
             "via": [
+              "Grünbergseilbahn",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
             "departure": "15:10",
             "arrival": "16:10",
             "via": [
+              "Grünbergseilbahn",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           }
         ]
       }
@@ -4378,7 +4244,7 @@
               "time": "14:45"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "14:55"
             },
             {
@@ -4415,7 +4281,7 @@
         "ebe": [],
         "alt": [],
         "gr": [],
-        "toscana-park": []
+        "tos": []
       }
     },
     "2026-12-15": {
@@ -4427,7 +4293,7 @@
         "ebe": [],
         "alt": [],
         "gr": [],
-        "toscana-park": []
+        "tos": []
       }
     },
     "2026-12-16": {
@@ -4439,7 +4305,7 @@
         "ebe": [],
         "alt": [],
         "gr": [],
-        "toscana-park": []
+        "tos": []
       }
     },
     "2026-12-17": {
@@ -4451,7 +4317,7 @@
         "ebe": [],
         "alt": [],
         "gr": [],
-        "toscana-park": []
+        "tos": []
       }
     },
     "2026-12-18": {
@@ -4465,7 +4331,7 @@
               "time": "14:45"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "14:55"
             },
             {
@@ -4502,7 +4368,7 @@
         "ebe": [],
         "alt": [],
         "gr": [],
-        "toscana-park": []
+        "tos": []
       }
     },
     "2026-12-19": {
@@ -4516,7 +4382,7 @@
               "time": "11:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "11:10"
             },
             {
@@ -4542,7 +4408,7 @@
               "time": "13:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "13:10"
             },
             {
@@ -4564,7 +4430,7 @@
               "time": "14:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "14:10"
             },
             {
@@ -4586,7 +4452,7 @@
               "time": "15:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "15:10"
             },
             {
@@ -4608,7 +4474,7 @@
               "time": "16:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "16:10"
             },
             {
@@ -4687,11 +4553,11 @@
             "departure": "11:45",
             "arrival": "16:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Grünbergseilbahn",
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 210,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 210
           }
         ],
         "ebe": [],
@@ -4701,83 +4567,77 @@
             "departure": "12:25",
             "arrival": "13:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 30,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 30
           },
           {
             "departure": "13:45",
             "arrival": "14:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
             "departure": "14:45",
             "arrival": "15:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
             "departure": "15:45",
             "arrival": "17:25",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Toscana-Park",
+              "Traunkirchen"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           }
         ],
-        "toscana-park": [
+        "tos": [
           {
             "departure": "11:10",
             "arrival": "13:10",
             "via": [
+              "Traunkirchen",
+              "Grünbergseilbahn",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 30,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 30
           },
           {
             "departure": "13:10",
             "arrival": "14:10",
             "via": [
+              "Grünbergseilbahn",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
             "departure": "14:10",
             "arrival": "15:10",
             "via": [
+              "Grünbergseilbahn",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
             "departure": "15:10",
             "arrival": "16:10",
             "via": [
+              "Grünbergseilbahn",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           }
         ]
       }
@@ -4793,7 +4653,7 @@
               "time": "11:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "11:10"
             },
             {
@@ -4819,7 +4679,7 @@
               "time": "13:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "13:10"
             },
             {
@@ -4841,7 +4701,7 @@
               "time": "14:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "14:10"
             },
             {
@@ -4863,7 +4723,7 @@
               "time": "15:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "15:10"
             },
             {
@@ -4885,7 +4745,7 @@
               "time": "16:00"
             },
             {
-              "station": "toscana-park",
+              "station": "tos",
               "time": "16:10"
             },
             {
@@ -4964,11 +4824,11 @@
             "departure": "11:45",
             "arrival": "16:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Grünbergseilbahn",
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 210,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 210
           }
         ],
         "ebe": [],
@@ -4978,83 +4838,203 @@
             "departure": "12:25",
             "arrival": "13:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 30,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 30
           },
           {
             "departure": "13:45",
             "arrival": "14:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
             "departure": "14:45",
             "arrival": "15:45",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Toscana-Park"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
             "departure": "15:45",
             "arrival": "17:25",
             "via": [
-              "Gmunden Rathausplatz"
+              "Gmunden Rathausplatz",
+              "Toscana-Park",
+              "Traunkirchen"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           }
         ],
-        "toscana-park": [
+        "tos": [
           {
             "departure": "11:10",
             "arrival": "13:10",
             "via": [
+              "Traunkirchen",
+              "Grünbergseilbahn",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 30,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 30
           },
           {
             "departure": "13:10",
             "arrival": "14:10",
             "via": [
+              "Grünbergseilbahn",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
             "departure": "14:10",
             "arrival": "15:10",
             "via": [
+              "Grünbergseilbahn",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
           },
           {
             "departure": "15:10",
             "arrival": "16:10",
             "via": [
+              "Grünbergseilbahn",
               "Gmunden Rathausplatz"
             ],
-            "pauseMinutes": 10,
-            "approximateArrival": false,
-            "approximatePause": false
+            "pauseMinutes": 10
+          }
+        ]
+      }
+    },
+    "2026-12-24": {
+      "trips": [],
+      "rounds": {
+        "gm": [
+          {
+            "name": "Weihnachtsmärchen am Schiff",
+            "departure": "14:00",
+            "via": [],
+            "pauseMinutes": 0,
+            "reservationRequired": true
+          }
+        ]
+      }
+    },
+    "2026-12-26": {
+      "trips": [],
+      "rounds": {
+        "gm": [
+          {
+            "name": "Winterfahrten am Traunsee",
+            "departure": "14:00",
+            "via": [],
+            "pauseMinutes": 0,
+            "durationMinutes": 60
+          }
+        ]
+      }
+    },
+    "2026-12-27": {
+      "trips": [],
+      "rounds": {
+        "gm": [
+          {
+            "name": "Winterfahrten am Traunsee",
+            "departure": "14:00",
+            "via": [],
+            "pauseMinutes": 0,
+            "durationMinutes": 60
+          }
+        ]
+      }
+    },
+    "2026-12-28": {
+      "trips": [],
+      "rounds": {
+        "gm": [
+          {
+            "name": "Winterfahrten am Traunsee",
+            "departure": "14:00",
+            "via": [],
+            "pauseMinutes": 0,
+            "durationMinutes": 60
+          }
+        ]
+      }
+    },
+    "2026-12-29": {
+      "trips": [],
+      "rounds": {
+        "gm": [
+          {
+            "name": "Winterfahrten am Traunsee",
+            "departure": "14:00",
+            "via": [],
+            "pauseMinutes": 0,
+            "durationMinutes": 60
+          }
+        ]
+      }
+    },
+    "2026-12-30": {
+      "trips": [],
+      "rounds": {
+        "gm": [
+          {
+            "name": "Winterfahrten am Traunsee",
+            "departure": "14:00",
+            "via": [],
+            "pauseMinutes": 0,
+            "durationMinutes": 60
+          }
+        ]
+      }
+    },
+    "2026-12-31": {
+      "trips": [],
+      "rounds": {
+        "gm": [
+          {
+            "name": "Winterfahrten am Traunsee",
+            "departure": "14:00",
+            "via": [],
+            "pauseMinutes": 0,
+            "durationMinutes": 60
+          }
+        ]
+      }
+    },
+    "2027-01-01": {
+      "trips": [],
+      "rounds": {
+        "gm": [
+          {
+            "name": "Winterfahrten am Traunsee",
+            "departure": "14:00",
+            "via": [],
+            "pauseMinutes": 0,
+            "durationMinutes": 60
+          }
+        ]
+      }
+    },
+    "2027-01-05": {
+      "trips": [],
+      "rounds": {
+        "gm": [
+          {
+            "name": "Winterfahrten am Traunsee",
+            "departure": "14:00",
+            "via": [],
+            "pauseMinutes": 0,
+            "durationMinutes": 60
           }
         ]
       }
@@ -5079,10 +5059,16 @@
       "toscana-park"
     ],
     "approximate_stop_offsets_minutes": {
-      "gr": 5,
-      "toscana-park": 30,
-      "gm": 50
+      "gr": 10,
+      "toscana-park": 20,
+      "gm": 30
     },
-    "destination_after_toscana": "gm"
+    "destination_after_toscana": "gm",
+    "stop_offsets_minutes": {
+      "gr": 10,
+      "toscana-park": 20,
+      "gm": 30
+    },
+    "exact_times": true
   }
 }
