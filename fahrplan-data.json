@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "timezone": "Europe/Vienna",
-  "updated_at": "2026-11-13T14:14:32.888Z",
+  "updated_at": "2026-11-20T07:52:11.923Z",
   "stations": [
     {
       "id": "gm",
@@ -61,6 +61,15 @@
       ],
       "map": "https://maps.app.goo.gl/FGDmPTfYwJJ1N8GL6",
       "slug": "grünbergseilbahn"
+    },
+    {
+      "id": "toscana-park",
+      "name": "Toscana-Park",
+      "aliases": [
+        "toscana"
+      ],
+      "map": "https://maps.app.goo.gl/PL3wYG6omX2ewH4r9",
+      "slug": "toscana-park"
     }
   ],
   "plans": {
@@ -555,6 +564,3176 @@
         "ebe": [],
         "alt": [],
         "gr": []
+      }
+    },
+    "2026-11-20": {
+      "trips": [
+        {
+          "id": "2026-11-20-panorama-0",
+          "kind": "panorama",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "14:45"
+            },
+            {
+              "station": "toscana-park",
+              "time": "14:55"
+            },
+            {
+              "station": "trk",
+              "time": "15:30"
+            },
+            {
+              "station": "gr",
+              "time": "16:10"
+            },
+            {
+              "station": "gm",
+              "time": "16:15"
+            }
+          ]
+        }
+      ],
+      "rounds": {
+        "gm": [
+          {
+            "departure": "14:45",
+            "arrival": "16:15",
+            "kind": "panorama",
+            "via": [
+              "Toscana-Park",
+              "Traunkirchen",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          }
+        ],
+        "gh": [],
+        "trk": [],
+        "ebe": [],
+        "alt": [],
+        "gr": [],
+        "toscana-park": []
+      }
+    },
+    "2026-11-21": {
+      "trips": [
+        {
+          "id": "2026-11-21-panorama-0",
+          "kind": "panorama",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "11:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "11:10"
+            },
+            {
+              "station": "trk",
+              "time": "11:45"
+            },
+            {
+              "station": "gr",
+              "time": "12:25"
+            },
+            {
+              "station": "gm",
+              "time": "12:30"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-21-shuttle-1130",
+          "kind": "shuttle",
+          "name": "Shuttle-Schiff",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "11:30"
+            },
+            {
+              "station": "gr",
+              "time": "11:35",
+              "approximate": true
+            },
+            {
+              "station": "toscana-park",
+              "time": "12:00",
+              "approximate": true
+            },
+            {
+              "station": "gm",
+              "time": "12:20",
+              "approximate": true
+            }
+          ]
+        },
+        {
+          "id": "2026-11-21-shuttle-1230",
+          "kind": "shuttle",
+          "name": "Shuttle-Schiff",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "12:30"
+            },
+            {
+              "station": "gr",
+              "time": "12:35",
+              "approximate": true
+            },
+            {
+              "station": "toscana-park",
+              "time": "13:00",
+              "approximate": true
+            },
+            {
+              "station": "gm",
+              "time": "13:20",
+              "approximate": true
+            }
+          ]
+        },
+        {
+          "id": "2026-11-21-castle-1",
+          "kind": "castle",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "13:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "13:10"
+            },
+            {
+              "station": "gr",
+              "time": "13:45"
+            },
+            {
+              "station": "gm",
+              "time": "13:50"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-21-shuttle-1330",
+          "kind": "shuttle",
+          "name": "Shuttle-Schiff",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "13:30"
+            },
+            {
+              "station": "gr",
+              "time": "13:35",
+              "approximate": true
+            },
+            {
+              "station": "toscana-park",
+              "time": "14:00",
+              "approximate": true
+            },
+            {
+              "station": "gm",
+              "time": "14:20",
+              "approximate": true
+            }
+          ]
+        },
+        {
+          "id": "2026-11-21-castle-2",
+          "kind": "castle",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "14:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "14:10"
+            },
+            {
+              "station": "gr",
+              "time": "14:45"
+            },
+            {
+              "station": "gm",
+              "time": "14:50"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-21-castle-3",
+          "kind": "castle",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "15:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "15:10"
+            },
+            {
+              "station": "gr",
+              "time": "15:45"
+            },
+            {
+              "station": "gm",
+              "time": "15:50"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-21-panorama-4",
+          "kind": "panorama",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "16:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "16:10"
+            },
+            {
+              "station": "trk",
+              "time": "16:45"
+            },
+            {
+              "station": "gr",
+              "time": "17:25"
+            },
+            {
+              "station": "gm",
+              "time": "17:30"
+            }
+          ]
+        }
+      ],
+      "rounds": {
+        "gm": [
+          {
+            "departure": "11:00",
+            "arrival": "12:30",
+            "kind": "panorama",
+            "via": [
+              "Toscana-Park",
+              "Traunkirchen",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "11:30",
+            "arrival": "12:20",
+            "kind": "shuttle",
+            "via": [
+              "Grünbergseilbahn",
+              "Toscana-Park"
+            ],
+            "pauseMinutes": 0,
+            "approximateArrival": true
+          },
+          {
+            "departure": "12:30",
+            "arrival": "13:20",
+            "kind": "shuttle",
+            "via": [
+              "Grünbergseilbahn",
+              "Toscana-Park"
+            ],
+            "pauseMinutes": 0,
+            "approximateArrival": true
+          },
+          {
+            "departure": "13:00",
+            "arrival": "13:50",
+            "kind": "castle",
+            "via": [
+              "Toscana-Park",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "13:30",
+            "arrival": "14:20",
+            "kind": "shuttle",
+            "via": [
+              "Grünbergseilbahn",
+              "Toscana-Park"
+            ],
+            "pauseMinutes": 0,
+            "approximateArrival": true
+          },
+          {
+            "departure": "14:00",
+            "arrival": "14:50",
+            "kind": "castle",
+            "via": [
+              "Toscana-Park",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "15:00",
+            "arrival": "15:50",
+            "kind": "castle",
+            "via": [
+              "Toscana-Park",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "16:00",
+            "arrival": "17:30",
+            "kind": "panorama",
+            "via": [
+              "Toscana-Park",
+              "Traunkirchen",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          }
+        ],
+        "gh": [],
+        "trk": [],
+        "ebe": [],
+        "alt": [],
+        "gr": [],
+        "toscana-park": []
+      }
+    },
+    "2026-11-22": {
+      "trips": [
+        {
+          "id": "2026-11-22-panorama-0",
+          "kind": "panorama",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "11:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "11:10"
+            },
+            {
+              "station": "trk",
+              "time": "11:45"
+            },
+            {
+              "station": "gr",
+              "time": "12:25"
+            },
+            {
+              "station": "gm",
+              "time": "12:30"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-22-castle-1",
+          "kind": "castle",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "13:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "13:10"
+            },
+            {
+              "station": "gr",
+              "time": "13:45"
+            },
+            {
+              "station": "gm",
+              "time": "13:50"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-22-castle-2",
+          "kind": "castle",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "14:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "14:10"
+            },
+            {
+              "station": "gr",
+              "time": "14:45"
+            },
+            {
+              "station": "gm",
+              "time": "14:50"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-22-castle-3",
+          "kind": "castle",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "15:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "15:10"
+            },
+            {
+              "station": "gr",
+              "time": "15:45"
+            },
+            {
+              "station": "gm",
+              "time": "15:50"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-22-panorama-4",
+          "kind": "panorama",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "16:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "16:10"
+            },
+            {
+              "station": "trk",
+              "time": "16:45"
+            },
+            {
+              "station": "gr",
+              "time": "17:25"
+            },
+            {
+              "station": "gm",
+              "time": "17:30"
+            }
+          ]
+        }
+      ],
+      "rounds": {
+        "gm": [
+          {
+            "departure": "11:00",
+            "arrival": "12:30",
+            "kind": "panorama",
+            "via": [
+              "Toscana-Park",
+              "Traunkirchen",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "13:00",
+            "arrival": "13:50",
+            "kind": "castle",
+            "via": [
+              "Toscana-Park",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "14:00",
+            "arrival": "14:50",
+            "kind": "castle",
+            "via": [
+              "Toscana-Park",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "15:00",
+            "arrival": "15:50",
+            "kind": "castle",
+            "via": [
+              "Toscana-Park",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "16:00",
+            "arrival": "17:30",
+            "kind": "panorama",
+            "via": [
+              "Toscana-Park",
+              "Traunkirchen",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          }
+        ],
+        "gh": [],
+        "trk": [],
+        "ebe": [],
+        "alt": [],
+        "gr": [],
+        "toscana-park": []
+      }
+    },
+    "2026-11-23": {
+      "trips": [
+        {
+          "id": "2026-11-23-panorama-0",
+          "kind": "panorama",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "14:45"
+            },
+            {
+              "station": "toscana-park",
+              "time": "14:55"
+            },
+            {
+              "station": "trk",
+              "time": "15:30"
+            },
+            {
+              "station": "gr",
+              "time": "16:10"
+            },
+            {
+              "station": "gm",
+              "time": "16:15"
+            }
+          ]
+        }
+      ],
+      "rounds": {
+        "gm": [
+          {
+            "departure": "14:45",
+            "arrival": "16:15",
+            "kind": "panorama",
+            "via": [
+              "Toscana-Park",
+              "Traunkirchen",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          }
+        ],
+        "gh": [],
+        "trk": [],
+        "ebe": [],
+        "alt": [],
+        "gr": [],
+        "toscana-park": []
+      }
+    },
+    "2026-11-24": {
+      "trips": [],
+      "rounds": {
+        "gm": [],
+        "gh": [],
+        "trk": [],
+        "ebe": [],
+        "alt": [],
+        "gr": [],
+        "toscana-park": []
+      }
+    },
+    "2026-11-25": {
+      "trips": [],
+      "rounds": {
+        "gm": [],
+        "gh": [],
+        "trk": [],
+        "ebe": [],
+        "alt": [],
+        "gr": [],
+        "toscana-park": []
+      }
+    },
+    "2026-11-26": {
+      "trips": [],
+      "rounds": {
+        "gm": [],
+        "gh": [],
+        "trk": [],
+        "ebe": [],
+        "alt": [],
+        "gr": [],
+        "toscana-park": []
+      }
+    },
+    "2026-11-27": {
+      "trips": [
+        {
+          "id": "2026-11-27-panorama-0",
+          "kind": "panorama",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "14:45"
+            },
+            {
+              "station": "toscana-park",
+              "time": "14:55"
+            },
+            {
+              "station": "trk",
+              "time": "15:30"
+            },
+            {
+              "station": "gr",
+              "time": "16:10"
+            },
+            {
+              "station": "gm",
+              "time": "16:15"
+            }
+          ]
+        }
+      ],
+      "rounds": {
+        "gm": [
+          {
+            "departure": "14:45",
+            "arrival": "16:15",
+            "kind": "panorama",
+            "via": [
+              "Toscana-Park",
+              "Traunkirchen",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          }
+        ],
+        "gh": [],
+        "trk": [],
+        "ebe": [],
+        "alt": [],
+        "gr": [],
+        "toscana-park": []
+      }
+    },
+    "2026-11-28": {
+      "trips": [
+        {
+          "id": "2026-11-28-panorama-0",
+          "kind": "panorama",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "11:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "11:10"
+            },
+            {
+              "station": "trk",
+              "time": "11:45"
+            },
+            {
+              "station": "gr",
+              "time": "12:25"
+            },
+            {
+              "station": "gm",
+              "time": "12:30"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-28-shuttle-1130",
+          "kind": "shuttle",
+          "name": "Shuttle-Schiff",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "11:30"
+            },
+            {
+              "station": "gr",
+              "time": "11:35",
+              "approximate": true
+            },
+            {
+              "station": "toscana-park",
+              "time": "12:00",
+              "approximate": true
+            },
+            {
+              "station": "gm",
+              "time": "12:20",
+              "approximate": true
+            }
+          ]
+        },
+        {
+          "id": "2026-11-28-shuttle-1230",
+          "kind": "shuttle",
+          "name": "Shuttle-Schiff",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "12:30"
+            },
+            {
+              "station": "gr",
+              "time": "12:35",
+              "approximate": true
+            },
+            {
+              "station": "toscana-park",
+              "time": "13:00",
+              "approximate": true
+            },
+            {
+              "station": "gm",
+              "time": "13:20",
+              "approximate": true
+            }
+          ]
+        },
+        {
+          "id": "2026-11-28-castle-1",
+          "kind": "castle",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "13:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "13:10"
+            },
+            {
+              "station": "gr",
+              "time": "13:45"
+            },
+            {
+              "station": "gm",
+              "time": "13:50"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-28-shuttle-1330",
+          "kind": "shuttle",
+          "name": "Shuttle-Schiff",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "13:30"
+            },
+            {
+              "station": "gr",
+              "time": "13:35",
+              "approximate": true
+            },
+            {
+              "station": "toscana-park",
+              "time": "14:00",
+              "approximate": true
+            },
+            {
+              "station": "gm",
+              "time": "14:20",
+              "approximate": true
+            }
+          ]
+        },
+        {
+          "id": "2026-11-28-castle-2",
+          "kind": "castle",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "14:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "14:10"
+            },
+            {
+              "station": "gr",
+              "time": "14:45"
+            },
+            {
+              "station": "gm",
+              "time": "14:50"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-28-castle-3",
+          "kind": "castle",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "15:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "15:10"
+            },
+            {
+              "station": "gr",
+              "time": "15:45"
+            },
+            {
+              "station": "gm",
+              "time": "15:50"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-28-panorama-4",
+          "kind": "panorama",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "16:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "16:10"
+            },
+            {
+              "station": "trk",
+              "time": "16:45"
+            },
+            {
+              "station": "gr",
+              "time": "17:25"
+            },
+            {
+              "station": "gm",
+              "time": "17:30"
+            }
+          ]
+        }
+      ],
+      "rounds": {
+        "gm": [
+          {
+            "departure": "11:00",
+            "arrival": "12:30",
+            "kind": "panorama",
+            "via": [
+              "Toscana-Park",
+              "Traunkirchen",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "11:30",
+            "arrival": "12:20",
+            "kind": "shuttle",
+            "via": [
+              "Grünbergseilbahn",
+              "Toscana-Park"
+            ],
+            "pauseMinutes": 0,
+            "approximateArrival": true
+          },
+          {
+            "departure": "12:30",
+            "arrival": "13:20",
+            "kind": "shuttle",
+            "via": [
+              "Grünbergseilbahn",
+              "Toscana-Park"
+            ],
+            "pauseMinutes": 0,
+            "approximateArrival": true
+          },
+          {
+            "departure": "13:00",
+            "arrival": "13:50",
+            "kind": "castle",
+            "via": [
+              "Toscana-Park",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "13:30",
+            "arrival": "14:20",
+            "kind": "shuttle",
+            "via": [
+              "Grünbergseilbahn",
+              "Toscana-Park"
+            ],
+            "pauseMinutes": 0,
+            "approximateArrival": true
+          },
+          {
+            "departure": "14:00",
+            "arrival": "14:50",
+            "kind": "castle",
+            "via": [
+              "Toscana-Park",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "15:00",
+            "arrival": "15:50",
+            "kind": "castle",
+            "via": [
+              "Toscana-Park",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "16:00",
+            "arrival": "17:30",
+            "kind": "panorama",
+            "via": [
+              "Toscana-Park",
+              "Traunkirchen",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          }
+        ],
+        "gh": [],
+        "trk": [],
+        "ebe": [],
+        "alt": [],
+        "gr": [],
+        "toscana-park": []
+      }
+    },
+    "2026-11-29": {
+      "trips": [
+        {
+          "id": "2026-11-29-panorama-0",
+          "kind": "panorama",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "11:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "11:10"
+            },
+            {
+              "station": "trk",
+              "time": "11:45"
+            },
+            {
+              "station": "gr",
+              "time": "12:25"
+            },
+            {
+              "station": "gm",
+              "time": "12:30"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-29-castle-1",
+          "kind": "castle",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "13:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "13:10"
+            },
+            {
+              "station": "gr",
+              "time": "13:45"
+            },
+            {
+              "station": "gm",
+              "time": "13:50"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-29-castle-2",
+          "kind": "castle",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "14:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "14:10"
+            },
+            {
+              "station": "gr",
+              "time": "14:45"
+            },
+            {
+              "station": "gm",
+              "time": "14:50"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-29-castle-3",
+          "kind": "castle",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "15:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "15:10"
+            },
+            {
+              "station": "gr",
+              "time": "15:45"
+            },
+            {
+              "station": "gm",
+              "time": "15:50"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-29-panorama-4",
+          "kind": "panorama",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "16:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "16:10"
+            },
+            {
+              "station": "trk",
+              "time": "16:45"
+            },
+            {
+              "station": "gr",
+              "time": "17:25"
+            },
+            {
+              "station": "gm",
+              "time": "17:30"
+            }
+          ]
+        }
+      ],
+      "rounds": {
+        "gm": [
+          {
+            "departure": "11:00",
+            "arrival": "12:30",
+            "kind": "panorama",
+            "via": [
+              "Toscana-Park",
+              "Traunkirchen",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "13:00",
+            "arrival": "13:50",
+            "kind": "castle",
+            "via": [
+              "Toscana-Park",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "14:00",
+            "arrival": "14:50",
+            "kind": "castle",
+            "via": [
+              "Toscana-Park",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "15:00",
+            "arrival": "15:50",
+            "kind": "castle",
+            "via": [
+              "Toscana-Park",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "16:00",
+            "arrival": "17:30",
+            "kind": "panorama",
+            "via": [
+              "Toscana-Park",
+              "Traunkirchen",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          }
+        ],
+        "gh": [],
+        "trk": [],
+        "ebe": [],
+        "alt": [],
+        "gr": [],
+        "toscana-park": []
+      }
+    },
+    "2026-11-30": {
+      "trips": [
+        {
+          "id": "2026-11-30-panorama-0",
+          "kind": "panorama",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "14:45"
+            },
+            {
+              "station": "toscana-park",
+              "time": "14:55"
+            },
+            {
+              "station": "trk",
+              "time": "15:30"
+            },
+            {
+              "station": "gr",
+              "time": "16:10"
+            },
+            {
+              "station": "gm",
+              "time": "16:15"
+            }
+          ]
+        }
+      ],
+      "rounds": {
+        "gm": [
+          {
+            "departure": "14:45",
+            "arrival": "16:15",
+            "kind": "panorama",
+            "via": [
+              "Toscana-Park",
+              "Traunkirchen",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          }
+        ],
+        "gh": [],
+        "trk": [],
+        "ebe": [],
+        "alt": [],
+        "gr": [],
+        "toscana-park": []
+      }
+    },
+    "2026-12-01": {
+      "trips": [],
+      "rounds": {
+        "gm": [],
+        "gh": [],
+        "trk": [],
+        "ebe": [],
+        "alt": [],
+        "gr": [],
+        "toscana-park": []
+      }
+    },
+    "2026-12-02": {
+      "trips": [],
+      "rounds": {
+        "gm": [],
+        "gh": [],
+        "trk": [],
+        "ebe": [],
+        "alt": [],
+        "gr": [],
+        "toscana-park": []
+      }
+    },
+    "2026-12-03": {
+      "trips": [],
+      "rounds": {
+        "gm": [],
+        "gh": [],
+        "trk": [],
+        "ebe": [],
+        "alt": [],
+        "gr": [],
+        "toscana-park": []
+      }
+    },
+    "2026-12-04": {
+      "trips": [
+        {
+          "id": "2026-12-04-panorama-0",
+          "kind": "panorama",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "14:45"
+            },
+            {
+              "station": "toscana-park",
+              "time": "14:55"
+            },
+            {
+              "station": "trk",
+              "time": "15:30"
+            },
+            {
+              "station": "gr",
+              "time": "16:10"
+            },
+            {
+              "station": "gm",
+              "time": "16:15"
+            }
+          ]
+        }
+      ],
+      "rounds": {
+        "gm": [
+          {
+            "departure": "14:45",
+            "arrival": "16:15",
+            "kind": "panorama",
+            "via": [
+              "Toscana-Park",
+              "Traunkirchen",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          }
+        ],
+        "gh": [],
+        "trk": [],
+        "ebe": [],
+        "alt": [],
+        "gr": [],
+        "toscana-park": []
+      }
+    },
+    "2026-12-05": {
+      "trips": [
+        {
+          "id": "2026-12-05-panorama-0",
+          "kind": "panorama",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "11:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "11:10"
+            },
+            {
+              "station": "trk",
+              "time": "11:45"
+            },
+            {
+              "station": "gr",
+              "time": "12:25"
+            },
+            {
+              "station": "gm",
+              "time": "12:30"
+            }
+          ]
+        },
+        {
+          "id": "2026-12-05-shuttle-1130",
+          "kind": "shuttle",
+          "name": "Shuttle-Schiff",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "11:30"
+            },
+            {
+              "station": "gr",
+              "time": "11:35",
+              "approximate": true
+            },
+            {
+              "station": "toscana-park",
+              "time": "12:00",
+              "approximate": true
+            },
+            {
+              "station": "gm",
+              "time": "12:20",
+              "approximate": true
+            }
+          ]
+        },
+        {
+          "id": "2026-12-05-shuttle-1230",
+          "kind": "shuttle",
+          "name": "Shuttle-Schiff",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "12:30"
+            },
+            {
+              "station": "gr",
+              "time": "12:35",
+              "approximate": true
+            },
+            {
+              "station": "toscana-park",
+              "time": "13:00",
+              "approximate": true
+            },
+            {
+              "station": "gm",
+              "time": "13:20",
+              "approximate": true
+            }
+          ]
+        },
+        {
+          "id": "2026-12-05-castle-1",
+          "kind": "castle",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "13:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "13:10"
+            },
+            {
+              "station": "gr",
+              "time": "13:45"
+            },
+            {
+              "station": "gm",
+              "time": "13:50"
+            }
+          ]
+        },
+        {
+          "id": "2026-12-05-shuttle-1330",
+          "kind": "shuttle",
+          "name": "Shuttle-Schiff",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "13:30"
+            },
+            {
+              "station": "gr",
+              "time": "13:35",
+              "approximate": true
+            },
+            {
+              "station": "toscana-park",
+              "time": "14:00",
+              "approximate": true
+            },
+            {
+              "station": "gm",
+              "time": "14:20",
+              "approximate": true
+            }
+          ]
+        },
+        {
+          "id": "2026-12-05-castle-2",
+          "kind": "castle",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "14:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "14:10"
+            },
+            {
+              "station": "gr",
+              "time": "14:45"
+            },
+            {
+              "station": "gm",
+              "time": "14:50"
+            }
+          ]
+        },
+        {
+          "id": "2026-12-05-castle-3",
+          "kind": "castle",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "15:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "15:10"
+            },
+            {
+              "station": "gr",
+              "time": "15:45"
+            },
+            {
+              "station": "gm",
+              "time": "15:50"
+            }
+          ]
+        },
+        {
+          "id": "2026-12-05-panorama-4",
+          "kind": "panorama",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "16:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "16:10"
+            },
+            {
+              "station": "trk",
+              "time": "16:45"
+            },
+            {
+              "station": "gr",
+              "time": "17:25"
+            },
+            {
+              "station": "gm",
+              "time": "17:30"
+            }
+          ]
+        }
+      ],
+      "rounds": {
+        "gm": [
+          {
+            "departure": "11:00",
+            "arrival": "12:30",
+            "kind": "panorama",
+            "via": [
+              "Toscana-Park",
+              "Traunkirchen",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "11:30",
+            "arrival": "12:20",
+            "kind": "shuttle",
+            "via": [
+              "Grünbergseilbahn",
+              "Toscana-Park"
+            ],
+            "pauseMinutes": 0,
+            "approximateArrival": true
+          },
+          {
+            "departure": "12:30",
+            "arrival": "13:20",
+            "kind": "shuttle",
+            "via": [
+              "Grünbergseilbahn",
+              "Toscana-Park"
+            ],
+            "pauseMinutes": 0,
+            "approximateArrival": true
+          },
+          {
+            "departure": "13:00",
+            "arrival": "13:50",
+            "kind": "castle",
+            "via": [
+              "Toscana-Park",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "13:30",
+            "arrival": "14:20",
+            "kind": "shuttle",
+            "via": [
+              "Grünbergseilbahn",
+              "Toscana-Park"
+            ],
+            "pauseMinutes": 0,
+            "approximateArrival": true
+          },
+          {
+            "departure": "14:00",
+            "arrival": "14:50",
+            "kind": "castle",
+            "via": [
+              "Toscana-Park",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "15:00",
+            "arrival": "15:50",
+            "kind": "castle",
+            "via": [
+              "Toscana-Park",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "16:00",
+            "arrival": "17:30",
+            "kind": "panorama",
+            "via": [
+              "Toscana-Park",
+              "Traunkirchen",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          }
+        ],
+        "gh": [],
+        "trk": [],
+        "ebe": [],
+        "alt": [],
+        "gr": [],
+        "toscana-park": []
+      }
+    },
+    "2026-12-06": {
+      "trips": [
+        {
+          "id": "2026-12-06-panorama-0",
+          "kind": "panorama",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "11:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "11:10"
+            },
+            {
+              "station": "trk",
+              "time": "11:45"
+            },
+            {
+              "station": "gr",
+              "time": "12:25"
+            },
+            {
+              "station": "gm",
+              "time": "12:30"
+            }
+          ]
+        },
+        {
+          "id": "2026-12-06-castle-1",
+          "kind": "castle",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "13:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "13:10"
+            },
+            {
+              "station": "gr",
+              "time": "13:45"
+            },
+            {
+              "station": "gm",
+              "time": "13:50"
+            }
+          ]
+        },
+        {
+          "id": "2026-12-06-castle-2",
+          "kind": "castle",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "14:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "14:10"
+            },
+            {
+              "station": "gr",
+              "time": "14:45"
+            },
+            {
+              "station": "gm",
+              "time": "14:50"
+            }
+          ]
+        },
+        {
+          "id": "2026-12-06-castle-3",
+          "kind": "castle",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "15:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "15:10"
+            },
+            {
+              "station": "gr",
+              "time": "15:45"
+            },
+            {
+              "station": "gm",
+              "time": "15:50"
+            }
+          ]
+        },
+        {
+          "id": "2026-12-06-panorama-4",
+          "kind": "panorama",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "16:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "16:10"
+            },
+            {
+              "station": "trk",
+              "time": "16:45"
+            },
+            {
+              "station": "gr",
+              "time": "17:25"
+            },
+            {
+              "station": "gm",
+              "time": "17:30"
+            }
+          ]
+        }
+      ],
+      "rounds": {
+        "gm": [
+          {
+            "departure": "11:00",
+            "arrival": "12:30",
+            "kind": "panorama",
+            "via": [
+              "Toscana-Park",
+              "Traunkirchen",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "13:00",
+            "arrival": "13:50",
+            "kind": "castle",
+            "via": [
+              "Toscana-Park",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "14:00",
+            "arrival": "14:50",
+            "kind": "castle",
+            "via": [
+              "Toscana-Park",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "15:00",
+            "arrival": "15:50",
+            "kind": "castle",
+            "via": [
+              "Toscana-Park",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "16:00",
+            "arrival": "17:30",
+            "kind": "panorama",
+            "via": [
+              "Toscana-Park",
+              "Traunkirchen",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          }
+        ],
+        "gh": [],
+        "trk": [],
+        "ebe": [],
+        "alt": [],
+        "gr": [],
+        "toscana-park": []
+      }
+    },
+    "2026-12-07": {
+      "trips": [
+        {
+          "id": "2026-12-07-panorama-0",
+          "kind": "panorama",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "14:45"
+            },
+            {
+              "station": "toscana-park",
+              "time": "14:55"
+            },
+            {
+              "station": "trk",
+              "time": "15:30"
+            },
+            {
+              "station": "gr",
+              "time": "16:10"
+            },
+            {
+              "station": "gm",
+              "time": "16:15"
+            }
+          ]
+        }
+      ],
+      "rounds": {
+        "gm": [
+          {
+            "departure": "14:45",
+            "arrival": "16:15",
+            "kind": "panorama",
+            "via": [
+              "Toscana-Park",
+              "Traunkirchen",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          }
+        ],
+        "gh": [],
+        "trk": [],
+        "ebe": [],
+        "alt": [],
+        "gr": [],
+        "toscana-park": []
+      }
+    },
+    "2026-12-08": {
+      "trips": [
+        {
+          "id": "2026-12-08-panorama-0",
+          "kind": "panorama",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "11:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "11:10"
+            },
+            {
+              "station": "trk",
+              "time": "11:45"
+            },
+            {
+              "station": "gr",
+              "time": "12:25"
+            },
+            {
+              "station": "gm",
+              "time": "12:30"
+            }
+          ]
+        },
+        {
+          "id": "2026-12-08-shuttle-1130",
+          "kind": "shuttle",
+          "name": "Shuttle-Schiff",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "11:30"
+            },
+            {
+              "station": "gr",
+              "time": "11:35",
+              "approximate": true
+            },
+            {
+              "station": "toscana-park",
+              "time": "12:00",
+              "approximate": true
+            },
+            {
+              "station": "gm",
+              "time": "12:20",
+              "approximate": true
+            }
+          ]
+        },
+        {
+          "id": "2026-12-08-shuttle-1230",
+          "kind": "shuttle",
+          "name": "Shuttle-Schiff",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "12:30"
+            },
+            {
+              "station": "gr",
+              "time": "12:35",
+              "approximate": true
+            },
+            {
+              "station": "toscana-park",
+              "time": "13:00",
+              "approximate": true
+            },
+            {
+              "station": "gm",
+              "time": "13:20",
+              "approximate": true
+            }
+          ]
+        },
+        {
+          "id": "2026-12-08-castle-1",
+          "kind": "castle",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "13:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "13:10"
+            },
+            {
+              "station": "gr",
+              "time": "13:45"
+            },
+            {
+              "station": "gm",
+              "time": "13:50"
+            }
+          ]
+        },
+        {
+          "id": "2026-12-08-shuttle-1330",
+          "kind": "shuttle",
+          "name": "Shuttle-Schiff",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "13:30"
+            },
+            {
+              "station": "gr",
+              "time": "13:35",
+              "approximate": true
+            },
+            {
+              "station": "toscana-park",
+              "time": "14:00",
+              "approximate": true
+            },
+            {
+              "station": "gm",
+              "time": "14:20",
+              "approximate": true
+            }
+          ]
+        },
+        {
+          "id": "2026-12-08-castle-2",
+          "kind": "castle",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "14:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "14:10"
+            },
+            {
+              "station": "gr",
+              "time": "14:45"
+            },
+            {
+              "station": "gm",
+              "time": "14:50"
+            }
+          ]
+        },
+        {
+          "id": "2026-12-08-castle-3",
+          "kind": "castle",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "15:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "15:10"
+            },
+            {
+              "station": "gr",
+              "time": "15:45"
+            },
+            {
+              "station": "gm",
+              "time": "15:50"
+            }
+          ]
+        },
+        {
+          "id": "2026-12-08-panorama-4",
+          "kind": "panorama",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "16:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "16:10"
+            },
+            {
+              "station": "trk",
+              "time": "16:45"
+            },
+            {
+              "station": "gr",
+              "time": "17:25"
+            },
+            {
+              "station": "gm",
+              "time": "17:30"
+            }
+          ]
+        }
+      ],
+      "rounds": {
+        "gm": [
+          {
+            "departure": "11:00",
+            "arrival": "12:30",
+            "kind": "panorama",
+            "via": [
+              "Toscana-Park",
+              "Traunkirchen",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "11:30",
+            "arrival": "12:20",
+            "kind": "shuttle",
+            "via": [
+              "Grünbergseilbahn",
+              "Toscana-Park"
+            ],
+            "pauseMinutes": 0,
+            "approximateArrival": true
+          },
+          {
+            "departure": "12:30",
+            "arrival": "13:20",
+            "kind": "shuttle",
+            "via": [
+              "Grünbergseilbahn",
+              "Toscana-Park"
+            ],
+            "pauseMinutes": 0,
+            "approximateArrival": true
+          },
+          {
+            "departure": "13:00",
+            "arrival": "13:50",
+            "kind": "castle",
+            "via": [
+              "Toscana-Park",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "13:30",
+            "arrival": "14:20",
+            "kind": "shuttle",
+            "via": [
+              "Grünbergseilbahn",
+              "Toscana-Park"
+            ],
+            "pauseMinutes": 0,
+            "approximateArrival": true
+          },
+          {
+            "departure": "14:00",
+            "arrival": "14:50",
+            "kind": "castle",
+            "via": [
+              "Toscana-Park",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "15:00",
+            "arrival": "15:50",
+            "kind": "castle",
+            "via": [
+              "Toscana-Park",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "16:00",
+            "arrival": "17:30",
+            "kind": "panorama",
+            "via": [
+              "Toscana-Park",
+              "Traunkirchen",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          }
+        ],
+        "gh": [],
+        "trk": [],
+        "ebe": [],
+        "alt": [],
+        "gr": [],
+        "toscana-park": []
+      }
+    },
+    "2026-12-09": {
+      "trips": [],
+      "rounds": {
+        "gm": [],
+        "gh": [],
+        "trk": [],
+        "ebe": [],
+        "alt": [],
+        "gr": [],
+        "toscana-park": []
+      }
+    },
+    "2026-12-10": {
+      "trips": [],
+      "rounds": {
+        "gm": [],
+        "gh": [],
+        "trk": [],
+        "ebe": [],
+        "alt": [],
+        "gr": [],
+        "toscana-park": []
+      }
+    },
+    "2026-12-11": {
+      "trips": [
+        {
+          "id": "2026-12-11-panorama-0",
+          "kind": "panorama",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "14:45"
+            },
+            {
+              "station": "toscana-park",
+              "time": "14:55"
+            },
+            {
+              "station": "trk",
+              "time": "15:30"
+            },
+            {
+              "station": "gr",
+              "time": "16:10"
+            },
+            {
+              "station": "gm",
+              "time": "16:15"
+            }
+          ]
+        }
+      ],
+      "rounds": {
+        "gm": [
+          {
+            "departure": "14:45",
+            "arrival": "16:15",
+            "kind": "panorama",
+            "via": [
+              "Toscana-Park",
+              "Traunkirchen",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          }
+        ],
+        "gh": [],
+        "trk": [],
+        "ebe": [],
+        "alt": [],
+        "gr": [],
+        "toscana-park": []
+      }
+    },
+    "2026-12-12": {
+      "trips": [
+        {
+          "id": "2026-12-12-panorama-0",
+          "kind": "panorama",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "11:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "11:10"
+            },
+            {
+              "station": "trk",
+              "time": "11:45"
+            },
+            {
+              "station": "gr",
+              "time": "12:25"
+            },
+            {
+              "station": "gm",
+              "time": "12:30"
+            }
+          ]
+        },
+        {
+          "id": "2026-12-12-shuttle-1130",
+          "kind": "shuttle",
+          "name": "Shuttle-Schiff",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "11:30"
+            },
+            {
+              "station": "gr",
+              "time": "11:35",
+              "approximate": true
+            },
+            {
+              "station": "toscana-park",
+              "time": "12:00",
+              "approximate": true
+            },
+            {
+              "station": "gm",
+              "time": "12:20",
+              "approximate": true
+            }
+          ]
+        },
+        {
+          "id": "2026-12-12-shuttle-1230",
+          "kind": "shuttle",
+          "name": "Shuttle-Schiff",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "12:30"
+            },
+            {
+              "station": "gr",
+              "time": "12:35",
+              "approximate": true
+            },
+            {
+              "station": "toscana-park",
+              "time": "13:00",
+              "approximate": true
+            },
+            {
+              "station": "gm",
+              "time": "13:20",
+              "approximate": true
+            }
+          ]
+        },
+        {
+          "id": "2026-12-12-castle-1",
+          "kind": "castle",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "13:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "13:10"
+            },
+            {
+              "station": "gr",
+              "time": "13:45"
+            },
+            {
+              "station": "gm",
+              "time": "13:50"
+            }
+          ]
+        },
+        {
+          "id": "2026-12-12-shuttle-1330",
+          "kind": "shuttle",
+          "name": "Shuttle-Schiff",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "13:30"
+            },
+            {
+              "station": "gr",
+              "time": "13:35",
+              "approximate": true
+            },
+            {
+              "station": "toscana-park",
+              "time": "14:00",
+              "approximate": true
+            },
+            {
+              "station": "gm",
+              "time": "14:20",
+              "approximate": true
+            }
+          ]
+        },
+        {
+          "id": "2026-12-12-castle-2",
+          "kind": "castle",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "14:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "14:10"
+            },
+            {
+              "station": "gr",
+              "time": "14:45"
+            },
+            {
+              "station": "gm",
+              "time": "14:50"
+            }
+          ]
+        },
+        {
+          "id": "2026-12-12-castle-3",
+          "kind": "castle",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "15:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "15:10"
+            },
+            {
+              "station": "gr",
+              "time": "15:45"
+            },
+            {
+              "station": "gm",
+              "time": "15:50"
+            }
+          ]
+        },
+        {
+          "id": "2026-12-12-panorama-4",
+          "kind": "panorama",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "16:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "16:10"
+            },
+            {
+              "station": "trk",
+              "time": "16:45"
+            },
+            {
+              "station": "gr",
+              "time": "17:25"
+            },
+            {
+              "station": "gm",
+              "time": "17:30"
+            }
+          ]
+        }
+      ],
+      "rounds": {
+        "gm": [
+          {
+            "departure": "11:00",
+            "arrival": "12:30",
+            "kind": "panorama",
+            "via": [
+              "Toscana-Park",
+              "Traunkirchen",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "11:30",
+            "arrival": "12:20",
+            "kind": "shuttle",
+            "via": [
+              "Grünbergseilbahn",
+              "Toscana-Park"
+            ],
+            "pauseMinutes": 0,
+            "approximateArrival": true
+          },
+          {
+            "departure": "12:30",
+            "arrival": "13:20",
+            "kind": "shuttle",
+            "via": [
+              "Grünbergseilbahn",
+              "Toscana-Park"
+            ],
+            "pauseMinutes": 0,
+            "approximateArrival": true
+          },
+          {
+            "departure": "13:00",
+            "arrival": "13:50",
+            "kind": "castle",
+            "via": [
+              "Toscana-Park",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "13:30",
+            "arrival": "14:20",
+            "kind": "shuttle",
+            "via": [
+              "Grünbergseilbahn",
+              "Toscana-Park"
+            ],
+            "pauseMinutes": 0,
+            "approximateArrival": true
+          },
+          {
+            "departure": "14:00",
+            "arrival": "14:50",
+            "kind": "castle",
+            "via": [
+              "Toscana-Park",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "15:00",
+            "arrival": "15:50",
+            "kind": "castle",
+            "via": [
+              "Toscana-Park",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "16:00",
+            "arrival": "17:30",
+            "kind": "panorama",
+            "via": [
+              "Toscana-Park",
+              "Traunkirchen",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          }
+        ],
+        "gh": [],
+        "trk": [],
+        "ebe": [],
+        "alt": [],
+        "gr": [],
+        "toscana-park": []
+      }
+    },
+    "2026-12-13": {
+      "trips": [
+        {
+          "id": "2026-12-13-panorama-0",
+          "kind": "panorama",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "11:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "11:10"
+            },
+            {
+              "station": "trk",
+              "time": "11:45"
+            },
+            {
+              "station": "gr",
+              "time": "12:25"
+            },
+            {
+              "station": "gm",
+              "time": "12:30"
+            }
+          ]
+        },
+        {
+          "id": "2026-12-13-castle-1",
+          "kind": "castle",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "13:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "13:10"
+            },
+            {
+              "station": "gr",
+              "time": "13:45"
+            },
+            {
+              "station": "gm",
+              "time": "13:50"
+            }
+          ]
+        },
+        {
+          "id": "2026-12-13-castle-2",
+          "kind": "castle",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "14:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "14:10"
+            },
+            {
+              "station": "gr",
+              "time": "14:45"
+            },
+            {
+              "station": "gm",
+              "time": "14:50"
+            }
+          ]
+        },
+        {
+          "id": "2026-12-13-castle-3",
+          "kind": "castle",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "15:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "15:10"
+            },
+            {
+              "station": "gr",
+              "time": "15:45"
+            },
+            {
+              "station": "gm",
+              "time": "15:50"
+            }
+          ]
+        },
+        {
+          "id": "2026-12-13-panorama-4",
+          "kind": "panorama",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "16:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "16:10"
+            },
+            {
+              "station": "trk",
+              "time": "16:45"
+            },
+            {
+              "station": "gr",
+              "time": "17:25"
+            },
+            {
+              "station": "gm",
+              "time": "17:30"
+            }
+          ]
+        }
+      ],
+      "rounds": {
+        "gm": [
+          {
+            "departure": "11:00",
+            "arrival": "12:30",
+            "kind": "panorama",
+            "via": [
+              "Toscana-Park",
+              "Traunkirchen",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "13:00",
+            "arrival": "13:50",
+            "kind": "castle",
+            "via": [
+              "Toscana-Park",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "14:00",
+            "arrival": "14:50",
+            "kind": "castle",
+            "via": [
+              "Toscana-Park",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "15:00",
+            "arrival": "15:50",
+            "kind": "castle",
+            "via": [
+              "Toscana-Park",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "16:00",
+            "arrival": "17:30",
+            "kind": "panorama",
+            "via": [
+              "Toscana-Park",
+              "Traunkirchen",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          }
+        ],
+        "gh": [],
+        "trk": [],
+        "ebe": [],
+        "alt": [],
+        "gr": [],
+        "toscana-park": []
+      }
+    },
+    "2026-12-14": {
+      "trips": [
+        {
+          "id": "2026-12-14-panorama-0",
+          "kind": "panorama",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "14:45"
+            },
+            {
+              "station": "toscana-park",
+              "time": "14:55"
+            },
+            {
+              "station": "trk",
+              "time": "15:30"
+            },
+            {
+              "station": "gr",
+              "time": "16:10"
+            },
+            {
+              "station": "gm",
+              "time": "16:15"
+            }
+          ]
+        }
+      ],
+      "rounds": {
+        "gm": [
+          {
+            "departure": "14:45",
+            "arrival": "16:15",
+            "kind": "panorama",
+            "via": [
+              "Toscana-Park",
+              "Traunkirchen",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          }
+        ],
+        "gh": [],
+        "trk": [],
+        "ebe": [],
+        "alt": [],
+        "gr": [],
+        "toscana-park": []
+      }
+    },
+    "2026-12-15": {
+      "trips": [],
+      "rounds": {
+        "gm": [],
+        "gh": [],
+        "trk": [],
+        "ebe": [],
+        "alt": [],
+        "gr": [],
+        "toscana-park": []
+      }
+    },
+    "2026-12-16": {
+      "trips": [],
+      "rounds": {
+        "gm": [],
+        "gh": [],
+        "trk": [],
+        "ebe": [],
+        "alt": [],
+        "gr": [],
+        "toscana-park": []
+      }
+    },
+    "2026-12-17": {
+      "trips": [],
+      "rounds": {
+        "gm": [],
+        "gh": [],
+        "trk": [],
+        "ebe": [],
+        "alt": [],
+        "gr": [],
+        "toscana-park": []
+      }
+    },
+    "2026-12-18": {
+      "trips": [
+        {
+          "id": "2026-12-18-panorama-0",
+          "kind": "panorama",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "14:45"
+            },
+            {
+              "station": "toscana-park",
+              "time": "14:55"
+            },
+            {
+              "station": "trk",
+              "time": "15:30"
+            },
+            {
+              "station": "gr",
+              "time": "16:10"
+            },
+            {
+              "station": "gm",
+              "time": "16:15"
+            }
+          ]
+        }
+      ],
+      "rounds": {
+        "gm": [
+          {
+            "departure": "14:45",
+            "arrival": "16:15",
+            "kind": "panorama",
+            "via": [
+              "Toscana-Park",
+              "Traunkirchen",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          }
+        ],
+        "gh": [],
+        "trk": [],
+        "ebe": [],
+        "alt": [],
+        "gr": [],
+        "toscana-park": []
+      }
+    },
+    "2026-12-19": {
+      "trips": [
+        {
+          "id": "2026-12-19-panorama-0",
+          "kind": "panorama",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "11:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "11:10"
+            },
+            {
+              "station": "trk",
+              "time": "11:45"
+            },
+            {
+              "station": "gr",
+              "time": "12:25"
+            },
+            {
+              "station": "gm",
+              "time": "12:30"
+            }
+          ]
+        },
+        {
+          "id": "2026-12-19-castle-1",
+          "kind": "castle",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "13:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "13:10"
+            },
+            {
+              "station": "gr",
+              "time": "13:45"
+            },
+            {
+              "station": "gm",
+              "time": "13:50"
+            }
+          ]
+        },
+        {
+          "id": "2026-12-19-castle-2",
+          "kind": "castle",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "14:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "14:10"
+            },
+            {
+              "station": "gr",
+              "time": "14:45"
+            },
+            {
+              "station": "gm",
+              "time": "14:50"
+            }
+          ]
+        },
+        {
+          "id": "2026-12-19-castle-3",
+          "kind": "castle",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "15:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "15:10"
+            },
+            {
+              "station": "gr",
+              "time": "15:45"
+            },
+            {
+              "station": "gm",
+              "time": "15:50"
+            }
+          ]
+        },
+        {
+          "id": "2026-12-19-panorama-4",
+          "kind": "panorama",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "16:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "16:10"
+            },
+            {
+              "station": "trk",
+              "time": "16:45"
+            },
+            {
+              "station": "gr",
+              "time": "17:25"
+            },
+            {
+              "station": "gm",
+              "time": "17:30"
+            }
+          ]
+        }
+      ],
+      "rounds": {
+        "gm": [
+          {
+            "departure": "11:00",
+            "arrival": "12:30",
+            "kind": "panorama",
+            "via": [
+              "Toscana-Park",
+              "Traunkirchen",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "13:00",
+            "arrival": "13:50",
+            "kind": "castle",
+            "via": [
+              "Toscana-Park",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "14:00",
+            "arrival": "14:50",
+            "kind": "castle",
+            "via": [
+              "Toscana-Park",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "15:00",
+            "arrival": "15:50",
+            "kind": "castle",
+            "via": [
+              "Toscana-Park",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "16:00",
+            "arrival": "17:30",
+            "kind": "panorama",
+            "via": [
+              "Toscana-Park",
+              "Traunkirchen",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          }
+        ],
+        "gh": [],
+        "trk": [],
+        "ebe": [],
+        "alt": [],
+        "gr": [],
+        "toscana-park": []
+      }
+    },
+    "2026-12-20": {
+      "trips": [
+        {
+          "id": "2026-12-20-panorama-0",
+          "kind": "panorama",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "11:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "11:10"
+            },
+            {
+              "station": "trk",
+              "time": "11:45"
+            },
+            {
+              "station": "gr",
+              "time": "12:25"
+            },
+            {
+              "station": "gm",
+              "time": "12:30"
+            }
+          ]
+        },
+        {
+          "id": "2026-12-20-castle-1",
+          "kind": "castle",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "13:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "13:10"
+            },
+            {
+              "station": "gr",
+              "time": "13:45"
+            },
+            {
+              "station": "gm",
+              "time": "13:50"
+            }
+          ]
+        },
+        {
+          "id": "2026-12-20-castle-2",
+          "kind": "castle",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "14:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "14:10"
+            },
+            {
+              "station": "gr",
+              "time": "14:45"
+            },
+            {
+              "station": "gm",
+              "time": "14:50"
+            }
+          ]
+        },
+        {
+          "id": "2026-12-20-castle-3",
+          "kind": "castle",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "15:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "15:10"
+            },
+            {
+              "station": "gr",
+              "time": "15:45"
+            },
+            {
+              "station": "gm",
+              "time": "15:50"
+            }
+          ]
+        },
+        {
+          "id": "2026-12-20-panorama-4",
+          "kind": "panorama",
+          "stops": [
+            {
+              "station": "gm",
+              "time": "16:00"
+            },
+            {
+              "station": "toscana-park",
+              "time": "16:10"
+            },
+            {
+              "station": "trk",
+              "time": "16:45"
+            },
+            {
+              "station": "gr",
+              "time": "17:25"
+            },
+            {
+              "station": "gm",
+              "time": "17:30"
+            }
+          ]
+        }
+      ],
+      "rounds": {
+        "gm": [
+          {
+            "departure": "11:00",
+            "arrival": "12:30",
+            "kind": "panorama",
+            "via": [
+              "Toscana-Park",
+              "Traunkirchen",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "13:00",
+            "arrival": "13:50",
+            "kind": "castle",
+            "via": [
+              "Toscana-Park",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "14:00",
+            "arrival": "14:50",
+            "kind": "castle",
+            "via": [
+              "Toscana-Park",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "15:00",
+            "arrival": "15:50",
+            "kind": "castle",
+            "via": [
+              "Toscana-Park",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          },
+          {
+            "departure": "16:00",
+            "arrival": "17:30",
+            "kind": "panorama",
+            "via": [
+              "Toscana-Park",
+              "Traunkirchen",
+              "Grünbergseilbahn"
+            ],
+            "pauseMinutes": 0
+          }
+        ],
+        "gh": [],
+        "trk": [],
+        "ebe": [],
+        "alt": [],
+        "gr": [],
+        "toscana-park": []
       }
     }
   },
