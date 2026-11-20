@@ -905,11 +905,164 @@
           }
         ],
         "gh": [],
-        "trk": [],
+        "trk": [
+          {
+            "departure": "11:45",
+            "arrival": "16:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 210,
+            "approximateArrival": false,
+            "approximatePause": false
+          }
+        ],
         "ebe": [],
         "alt": [],
-        "gr": [],
-        "toscana-park": []
+        "gr": [
+          {
+            "departure": "12:25",
+            "arrival": "12:35",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 0,
+            "approximateArrival": true,
+            "approximatePause": false
+          },
+          {
+            "departure": "11:35",
+            "arrival": "12:35",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": true,
+            "approximatePause": true
+          },
+          {
+            "departure": "12:35",
+            "arrival": "13:35",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": true,
+            "approximatePause": true
+          },
+          {
+            "departure": "13:45",
+            "arrival": "14:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "13:35",
+            "arrival": "15:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 40,
+            "approximateArrival": false,
+            "approximatePause": true
+          },
+          {
+            "departure": "14:45",
+            "arrival": "15:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "15:45",
+            "arrival": "17:25",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          }
+        ],
+        "toscana-park": [
+          {
+            "departure": "11:10",
+            "arrival": "13:00",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 0,
+            "approximateArrival": true,
+            "approximatePause": false
+          },
+          {
+            "departure": "12:00",
+            "arrival": "13:00",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": true,
+            "approximatePause": true
+          },
+          {
+            "departure": "13:00",
+            "arrival": "14:00",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": true,
+            "approximatePause": true
+          },
+          {
+            "departure": "13:10",
+            "arrival": "14:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "14:00",
+            "arrival": "15:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 40,
+            "approximateArrival": false,
+            "approximatePause": true
+          },
+          {
+            "departure": "14:10",
+            "arrival": "15:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "15:10",
+            "arrival": "16:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          }
+        ]
       }
     },
     "2026-11-22": {
@@ -1089,11 +1242,104 @@
           }
         ],
         "gh": [],
-        "trk": [],
+        "trk": [
+          {
+            "departure": "11:45",
+            "arrival": "16:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 210,
+            "approximateArrival": false,
+            "approximatePause": false
+          }
+        ],
         "ebe": [],
         "alt": [],
-        "gr": [],
-        "toscana-park": []
+        "gr": [
+          {
+            "departure": "12:25",
+            "arrival": "13:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 30,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "13:45",
+            "arrival": "14:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "14:45",
+            "arrival": "15:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "15:45",
+            "arrival": "17:25",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          }
+        ],
+        "toscana-park": [
+          {
+            "departure": "11:10",
+            "arrival": "13:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 30,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "13:10",
+            "arrival": "14:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "14:10",
+            "arrival": "15:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "15:10",
+            "arrival": "16:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          }
+        ]
       }
     },
     "2026-11-23": {
@@ -1522,11 +1768,164 @@
           }
         ],
         "gh": [],
-        "trk": [],
+        "trk": [
+          {
+            "departure": "11:45",
+            "arrival": "16:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 210,
+            "approximateArrival": false,
+            "approximatePause": false
+          }
+        ],
         "ebe": [],
         "alt": [],
-        "gr": [],
-        "toscana-park": []
+        "gr": [
+          {
+            "departure": "12:25",
+            "arrival": "12:35",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 0,
+            "approximateArrival": true,
+            "approximatePause": false
+          },
+          {
+            "departure": "11:35",
+            "arrival": "12:35",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": true,
+            "approximatePause": true
+          },
+          {
+            "departure": "12:35",
+            "arrival": "13:35",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": true,
+            "approximatePause": true
+          },
+          {
+            "departure": "13:45",
+            "arrival": "14:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "13:35",
+            "arrival": "15:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 40,
+            "approximateArrival": false,
+            "approximatePause": true
+          },
+          {
+            "departure": "14:45",
+            "arrival": "15:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "15:45",
+            "arrival": "17:25",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          }
+        ],
+        "toscana-park": [
+          {
+            "departure": "11:10",
+            "arrival": "13:00",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 0,
+            "approximateArrival": true,
+            "approximatePause": false
+          },
+          {
+            "departure": "12:00",
+            "arrival": "13:00",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": true,
+            "approximatePause": true
+          },
+          {
+            "departure": "13:00",
+            "arrival": "14:00",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": true,
+            "approximatePause": true
+          },
+          {
+            "departure": "13:10",
+            "arrival": "14:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "14:00",
+            "arrival": "15:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 40,
+            "approximateArrival": false,
+            "approximatePause": true
+          },
+          {
+            "departure": "14:10",
+            "arrival": "15:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "15:10",
+            "arrival": "16:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          }
+        ]
       }
     },
     "2026-11-29": {
@@ -1706,11 +2105,104 @@
           }
         ],
         "gh": [],
-        "trk": [],
+        "trk": [
+          {
+            "departure": "11:45",
+            "arrival": "16:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 210,
+            "approximateArrival": false,
+            "approximatePause": false
+          }
+        ],
         "ebe": [],
         "alt": [],
-        "gr": [],
-        "toscana-park": []
+        "gr": [
+          {
+            "departure": "12:25",
+            "arrival": "13:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 30,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "13:45",
+            "arrival": "14:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "14:45",
+            "arrival": "15:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "15:45",
+            "arrival": "17:25",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          }
+        ],
+        "toscana-park": [
+          {
+            "departure": "11:10",
+            "arrival": "13:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 30,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "13:10",
+            "arrival": "14:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "14:10",
+            "arrival": "15:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "15:10",
+            "arrival": "16:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          }
+        ]
       }
     },
     "2026-11-30": {
@@ -2139,11 +2631,164 @@
           }
         ],
         "gh": [],
-        "trk": [],
+        "trk": [
+          {
+            "departure": "11:45",
+            "arrival": "16:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 210,
+            "approximateArrival": false,
+            "approximatePause": false
+          }
+        ],
         "ebe": [],
         "alt": [],
-        "gr": [],
-        "toscana-park": []
+        "gr": [
+          {
+            "departure": "12:25",
+            "arrival": "12:35",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 0,
+            "approximateArrival": true,
+            "approximatePause": false
+          },
+          {
+            "departure": "11:35",
+            "arrival": "12:35",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": true,
+            "approximatePause": true
+          },
+          {
+            "departure": "12:35",
+            "arrival": "13:35",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": true,
+            "approximatePause": true
+          },
+          {
+            "departure": "13:45",
+            "arrival": "14:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "13:35",
+            "arrival": "15:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 40,
+            "approximateArrival": false,
+            "approximatePause": true
+          },
+          {
+            "departure": "14:45",
+            "arrival": "15:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "15:45",
+            "arrival": "17:25",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          }
+        ],
+        "toscana-park": [
+          {
+            "departure": "11:10",
+            "arrival": "13:00",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 0,
+            "approximateArrival": true,
+            "approximatePause": false
+          },
+          {
+            "departure": "12:00",
+            "arrival": "13:00",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": true,
+            "approximatePause": true
+          },
+          {
+            "departure": "13:00",
+            "arrival": "14:00",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": true,
+            "approximatePause": true
+          },
+          {
+            "departure": "13:10",
+            "arrival": "14:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "14:00",
+            "arrival": "15:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 40,
+            "approximateArrival": false,
+            "approximatePause": true
+          },
+          {
+            "departure": "14:10",
+            "arrival": "15:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "15:10",
+            "arrival": "16:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          }
+        ]
       }
     },
     "2026-12-06": {
@@ -2323,11 +2968,104 @@
           }
         ],
         "gh": [],
-        "trk": [],
+        "trk": [
+          {
+            "departure": "11:45",
+            "arrival": "16:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 210,
+            "approximateArrival": false,
+            "approximatePause": false
+          }
+        ],
         "ebe": [],
         "alt": [],
-        "gr": [],
-        "toscana-park": []
+        "gr": [
+          {
+            "departure": "12:25",
+            "arrival": "13:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 30,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "13:45",
+            "arrival": "14:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "14:45",
+            "arrival": "15:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "15:45",
+            "arrival": "17:25",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          }
+        ],
+        "toscana-park": [
+          {
+            "departure": "11:10",
+            "arrival": "13:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 30,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "13:10",
+            "arrival": "14:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "14:10",
+            "arrival": "15:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "15:10",
+            "arrival": "16:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          }
+        ]
       }
     },
     "2026-12-07": {
@@ -2669,11 +3407,164 @@
           }
         ],
         "gh": [],
-        "trk": [],
+        "trk": [
+          {
+            "departure": "11:45",
+            "arrival": "16:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 210,
+            "approximateArrival": false,
+            "approximatePause": false
+          }
+        ],
         "ebe": [],
         "alt": [],
-        "gr": [],
-        "toscana-park": []
+        "gr": [
+          {
+            "departure": "12:25",
+            "arrival": "12:35",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 0,
+            "approximateArrival": true,
+            "approximatePause": false
+          },
+          {
+            "departure": "11:35",
+            "arrival": "12:35",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": true,
+            "approximatePause": true
+          },
+          {
+            "departure": "12:35",
+            "arrival": "13:35",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": true,
+            "approximatePause": true
+          },
+          {
+            "departure": "13:45",
+            "arrival": "14:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "13:35",
+            "arrival": "15:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 40,
+            "approximateArrival": false,
+            "approximatePause": true
+          },
+          {
+            "departure": "14:45",
+            "arrival": "15:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "15:45",
+            "arrival": "17:25",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          }
+        ],
+        "toscana-park": [
+          {
+            "departure": "11:10",
+            "arrival": "13:00",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 0,
+            "approximateArrival": true,
+            "approximatePause": false
+          },
+          {
+            "departure": "12:00",
+            "arrival": "13:00",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": true,
+            "approximatePause": true
+          },
+          {
+            "departure": "13:00",
+            "arrival": "14:00",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": true,
+            "approximatePause": true
+          },
+          {
+            "departure": "13:10",
+            "arrival": "14:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "14:00",
+            "arrival": "15:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 40,
+            "approximateArrival": false,
+            "approximatePause": true
+          },
+          {
+            "departure": "14:10",
+            "arrival": "15:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "15:10",
+            "arrival": "16:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          }
+        ]
       }
     },
     "2026-12-09": {
@@ -3039,11 +3930,164 @@
           }
         ],
         "gh": [],
-        "trk": [],
+        "trk": [
+          {
+            "departure": "11:45",
+            "arrival": "16:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 210,
+            "approximateArrival": false,
+            "approximatePause": false
+          }
+        ],
         "ebe": [],
         "alt": [],
-        "gr": [],
-        "toscana-park": []
+        "gr": [
+          {
+            "departure": "12:25",
+            "arrival": "12:35",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 0,
+            "approximateArrival": true,
+            "approximatePause": false
+          },
+          {
+            "departure": "11:35",
+            "arrival": "12:35",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": true,
+            "approximatePause": true
+          },
+          {
+            "departure": "12:35",
+            "arrival": "13:35",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": true,
+            "approximatePause": true
+          },
+          {
+            "departure": "13:45",
+            "arrival": "14:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "13:35",
+            "arrival": "15:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 40,
+            "approximateArrival": false,
+            "approximatePause": true
+          },
+          {
+            "departure": "14:45",
+            "arrival": "15:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "15:45",
+            "arrival": "17:25",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          }
+        ],
+        "toscana-park": [
+          {
+            "departure": "11:10",
+            "arrival": "13:00",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 0,
+            "approximateArrival": true,
+            "approximatePause": false
+          },
+          {
+            "departure": "12:00",
+            "arrival": "13:00",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": true,
+            "approximatePause": true
+          },
+          {
+            "departure": "13:00",
+            "arrival": "14:00",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": true,
+            "approximatePause": true
+          },
+          {
+            "departure": "13:10",
+            "arrival": "14:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "14:00",
+            "arrival": "15:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 40,
+            "approximateArrival": false,
+            "approximatePause": true
+          },
+          {
+            "departure": "14:10",
+            "arrival": "15:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "15:10",
+            "arrival": "16:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          }
+        ]
       }
     },
     "2026-12-13": {
@@ -3223,11 +4267,104 @@
           }
         ],
         "gh": [],
-        "trk": [],
+        "trk": [
+          {
+            "departure": "11:45",
+            "arrival": "16:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 210,
+            "approximateArrival": false,
+            "approximatePause": false
+          }
+        ],
         "ebe": [],
         "alt": [],
-        "gr": [],
-        "toscana-park": []
+        "gr": [
+          {
+            "departure": "12:25",
+            "arrival": "13:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 30,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "13:45",
+            "arrival": "14:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "14:45",
+            "arrival": "15:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "15:45",
+            "arrival": "17:25",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          }
+        ],
+        "toscana-park": [
+          {
+            "departure": "11:10",
+            "arrival": "13:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 30,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "13:10",
+            "arrival": "14:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "14:10",
+            "arrival": "15:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "15:10",
+            "arrival": "16:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          }
+        ]
       }
     },
     "2026-12-14": {
@@ -3545,11 +4682,104 @@
           }
         ],
         "gh": [],
-        "trk": [],
+        "trk": [
+          {
+            "departure": "11:45",
+            "arrival": "16:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 210,
+            "approximateArrival": false,
+            "approximatePause": false
+          }
+        ],
         "ebe": [],
         "alt": [],
-        "gr": [],
-        "toscana-park": []
+        "gr": [
+          {
+            "departure": "12:25",
+            "arrival": "13:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 30,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "13:45",
+            "arrival": "14:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "14:45",
+            "arrival": "15:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "15:45",
+            "arrival": "17:25",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          }
+        ],
+        "toscana-park": [
+          {
+            "departure": "11:10",
+            "arrival": "13:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 30,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "13:10",
+            "arrival": "14:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "14:10",
+            "arrival": "15:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "15:10",
+            "arrival": "16:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          }
+        ]
       }
     },
     "2026-12-20": {
@@ -3729,11 +4959,104 @@
           }
         ],
         "gh": [],
-        "trk": [],
+        "trk": [
+          {
+            "departure": "11:45",
+            "arrival": "16:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 210,
+            "approximateArrival": false,
+            "approximatePause": false
+          }
+        ],
         "ebe": [],
         "alt": [],
-        "gr": [],
-        "toscana-park": []
+        "gr": [
+          {
+            "departure": "12:25",
+            "arrival": "13:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 30,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "13:45",
+            "arrival": "14:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "14:45",
+            "arrival": "15:45",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "15:45",
+            "arrival": "17:25",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          }
+        ],
+        "toscana-park": [
+          {
+            "departure": "11:10",
+            "arrival": "13:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 30,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "13:10",
+            "arrival": "14:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "14:10",
+            "arrival": "15:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          },
+          {
+            "departure": "15:10",
+            "arrival": "16:10",
+            "via": [
+              "Gmunden Rathausplatz"
+            ],
+            "pauseMinutes": 10,
+            "approximateArrival": false,
+            "approximatePause": false
+          }
+        ]
       }
     }
   },
